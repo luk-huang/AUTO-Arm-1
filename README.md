@@ -1,4 +1,5 @@
-# MIT AUTO Arm
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/158b2e49-fe04-482e-b284-c9e55afadde4">
+
 #### The AUTO Arm is an effort by the MIT Theoretical Physics Lab to create a robot that can assemble complex optical configurations quickly, speeding up the process by 90 percent. Furthermore, the robot can also implement AI and ML techniques to optimize layouts and to make second harmonic generation a possibility.
 ##Specifications
  - XArm 7
