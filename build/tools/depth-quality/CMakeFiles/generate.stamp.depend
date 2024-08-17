@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Users/email/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake
+C:/Users/email/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CheckIncludeFile.cmake
+C:/Users/email/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CheckLibraryExists.cmake
+C:/Users/email/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/email/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindPackageMessage.cmake
+C:/Users/email/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindThreads.cmake
+C:/Users/email/Documents/Work/librealsense/common/CMakeLists.txt
+C:/Users/email/Documents/Work/librealsense/tools/depth-quality/CMakeLists.txt

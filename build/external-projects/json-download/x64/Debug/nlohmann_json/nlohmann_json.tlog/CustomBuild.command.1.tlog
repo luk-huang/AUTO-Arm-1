@@ -1,0 +1,134 @@
+^C:\USERS\EMAIL\DOCUMENTS\WORK\BUILD\EXTERNAL-PROJECTS\JSON-DOWNLOAD\CMAKEFILES\F241D17175C7D47385380F9ED6179DCB\NLOHMANN_JSON-MKDIR.RULE
+setlocal
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -Dcfgdir=/Debug -P C:/Users/email/Documents/Work/build/external-projects/json-download/tmp/nlohmann_json-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E touch C:/Users/email/Documents/Work/build/external-projects/json-download/src/nlohmann_json-stamp/Debug/nlohmann_json-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\EMAIL\DOCUMENTS\WORK\BUILD\EXTERNAL-PROJECTS\JSON-DOWNLOAD\CMAKEFILES\F241D17175C7D47385380F9ED6179DCB\NLOHMANN_JSON-DOWNLOAD.RULE
+setlocal
+cd C:\Users\email\Documents\Work\build\third-party
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -P C:/Users/email/Documents/Work/build/external-projects/json-download/tmp/nlohmann_json-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E touch C:/Users/email/Documents/Work/build/external-projects/json-download/src/nlohmann_json-stamp/Debug/nlohmann_json-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\EMAIL\DOCUMENTS\WORK\BUILD\EXTERNAL-PROJECTS\JSON-DOWNLOAD\CMAKEFILES\F241D17175C7D47385380F9ED6179DCB\NLOHMANN_JSON-UPDATE.RULE
+setlocal
+cd C:\Users\email\Documents\Work\build\third-party\json
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -Dcan_fetch=YES -P C:/Users/email/Documents/Work/build/external-projects/json-download/tmp/nlohmann_json-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\EMAIL\DOCUMENTS\WORK\BUILD\EXTERNAL-PROJECTS\JSON-DOWNLOAD\CMAKEFILES\F241D17175C7D47385380F9ED6179DCB\NLOHMANN_JSON-PATCH.RULE
+setlocal
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E touch C:/Users/email/Documents/Work/build/external-projects/json-download/src/nlohmann_json-stamp/Debug/nlohmann_json-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\EMAIL\DOCUMENTS\WORK\BUILD\EXTERNAL-PROJECTS\JSON-DOWNLOAD\CMAKEFILES\F241D17175C7D47385380F9ED6179DCB\NLOHMANN_JSON-CONFIGURE.RULE
+setlocal
+cd C:\Users\email\Documents\Work\build\external-projects\json-download\src\nlohmann_json-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E touch C:/Users/email/Documents/Work/build/external-projects/json-download/src/nlohmann_json-stamp/Debug/nlohmann_json-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\EMAIL\DOCUMENTS\WORK\BUILD\EXTERNAL-PROJECTS\JSON-DOWNLOAD\CMAKEFILES\F241D17175C7D47385380F9ED6179DCB\NLOHMANN_JSON-BUILD.RULE
+setlocal
+cd C:\Users\email\Documents\Work\build\external-projects\json-download\src\nlohmann_json-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E touch C:/Users/email/Documents/Work/build/external-projects/json-download/src/nlohmann_json-stamp/Debug/nlohmann_json-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\EMAIL\DOCUMENTS\WORK\BUILD\EXTERNAL-PROJECTS\JSON-DOWNLOAD\CMAKEFILES\F241D17175C7D47385380F9ED6179DCB\NLOHMANN_JSON-INSTALL.RULE
+setlocal
+cd C:\Users\email\Documents\Work\build\external-projects\json-download\src\nlohmann_json-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E touch C:/Users/email/Documents/Work/build/external-projects/json-download/src/nlohmann_json-stamp/Debug/nlohmann_json-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\EMAIL\DOCUMENTS\WORK\BUILD\EXTERNAL-PROJECTS\JSON-DOWNLOAD\CMAKEFILES\6CD7C1AA0759ED0FF59D257609A7CFC3\NLOHMANN_JSON-COMPLETE.RULE
+setlocal
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E make_directory C:/Users/email/Documents/Work/build/external-projects/json-download/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E touch C:/Users/email/Documents/Work/build/external-projects/json-download/CMakeFiles/Debug/nlohmann_json-complete
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E touch C:/Users/email/Documents/Work/build/external-projects/json-download/src/nlohmann_json-stamp/Debug/nlohmann_json-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\EMAIL\DOCUMENTS\WORK\BUILD\EXTERNAL-PROJECTS\JSON-DOWNLOAD\CMAKEFILES\C54C0A76D39AAA2CB797197CBE4692A9\NLOHMANN_JSON.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\EMAIL\DOCUMENTS\WORK\BUILD\EXTERNAL-PROJECTS\JSON-DOWNLOAD\CMAKELISTS.TXT
+setlocal
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/email/Documents/Work/build/external-projects/json-download -BC:/Users/email/Documents/Work/build/external-projects/json-download --check-stamp-file C:/Users/email/Documents/Work/build/external-projects/json-download/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

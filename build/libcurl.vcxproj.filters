@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\CMakeFiles\9e0c1ebb18a73489865185a493b0912f\libcurl-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\CMakeFiles\9e0c1ebb18a73489865185a493b0912f\libcurl-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\CMakeFiles\9e0c1ebb18a73489865185a493b0912f\libcurl-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\CMakeFiles\9e0c1ebb18a73489865185a493b0912f\libcurl-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\CMakeFiles\9e0c1ebb18a73489865185a493b0912f\libcurl-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\CMakeFiles\9e0c1ebb18a73489865185a493b0912f\libcurl-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\CMakeFiles\9e0c1ebb18a73489865185a493b0912f\libcurl-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\CMakeFiles\9e0c1ebb18a73489865185a493b0912f\libcurl-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\CMakeFiles\89aefb92aba0ca5f86a3baf5f0db284e\libcurl-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\CMakeFiles\2b8ab92f989cc22336d84ab8d2d654b3\libcurl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\email\Documents\Work\librealsense\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\email\Documents\Work\build\CMakeFiles\libcurl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5527FA89-A7E4-369A-8529-F9FFD2629DC9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

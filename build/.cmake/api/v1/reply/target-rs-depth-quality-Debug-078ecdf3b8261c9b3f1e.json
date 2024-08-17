@@ -1,0 +1,1432 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Debug/rs-depth-quality.exe"
+		},
+		{
+			"path" : "Debug/rs-depth-quality.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"include",
+			"global_set_flags",
+			"add_dependencies",
+			"add_definitions",
+			"os_set_flags",
+			"os_target_config",
+			"include_directories",
+			"target_include_directories",
+			"set_property",
+			"target_sources",
+			"using_easyloggingpp"
+		],
+		"files" : 
+		[
+			"tools/depth-quality/CMakeLists.txt",
+			"CMake/external_libcurl.cmake",
+			"CMake/global_config.cmake",
+			"CMakeLists.txt",
+			"common/fw/CMakeLists.txt",
+			"CMake/windows_config.cmake",
+			"third-party/rsutils/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 128,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 46,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 79,
+				"parent" : 6
+			},
+			{
+				"file" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 54,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 60,
+				"parent" : 5
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 34,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 104,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 31,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 59,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 80,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 47,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 43,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 115,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 42,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 52,
+				"parent" : 23
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 84,
+				"parent" : 6
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 79,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 56,
+				"parent" : 26
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 45,
+				"parent" : 23
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 10,
+				"parent" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 126,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 6,
+				"line" : 87,
+				"parent" : 35
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /bigobj /wd4819 /MTd /Zi /Ob0 /Od /RTC1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 15,
+					"define" : "BUILD_EASYLOGGINGPP"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "BUILD_SHARED_LIBS"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "CHECK_FOR_UPDATES"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "COM_MULTITHREADED"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "CURL_STATICLIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "ELPP_NO_DEFAULT_LOG_FILE"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "ELPP_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "HWM_OVER_XU"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "INTERNAL_FW"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "RS2_USE_WMF_BACKEND"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "__SSSE3__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/email/Documents/Work/librealsense"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "C:/Users/email/Documents/Work/build"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/../../common"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/../../third-party"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/../../third-party/imgui"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/../../third-party/glad"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/../../third-party/tinyfiledialogs"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/res"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/../../src"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/email/Documents/Work/build/libcurl/libcurl_install/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/email/Documents/Work/librealsense/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/email/Documents/Work/librealsense/third-party/rsutils/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/email/Documents/Work/build/third-party/json/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/email/Documents/Work/librealsense/third-party/glfw/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/email/Documents/Work/librealsense/src/gl/../../include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/email/Documents/Work/librealsense/third-party/tclap/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/email/Documents/Work/build/common/fw"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					34
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				10,
+				12,
+				14,
+				16,
+				18,
+				19,
+				21,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				43,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				63,
+				65,
+				68,
+				69,
+				70,
+				78
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /MP /MTd /Zi /Ob0 /Od /RTC1"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 15,
+					"define" : "BUILD_EASYLOGGINGPP"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "BUILD_SHARED_LIBS"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "CHECK_FOR_UPDATES"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "COM_MULTITHREADED"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "CURL_STATICLIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "ELPP_NO_DEFAULT_LOG_FILE"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "ELPP_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "HWM_OVER_XU"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "INTERNAL_FW"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "RS2_USE_WMF_BACKEND"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "__SSSE3__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/email/Documents/Work/librealsense"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "C:/Users/email/Documents/Work/build"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/../../common"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/../../third-party"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/../../third-party/imgui"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/../../third-party/glad"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/../../third-party/tinyfiledialogs"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/res"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/../../src"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/email/Documents/Work/build/libcurl/libcurl_install/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/email/Documents/Work/librealsense/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/email/Documents/Work/librealsense/third-party/rsutils/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/email/Documents/Work/build/third-party/json/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/email/Documents/Work/librealsense/third-party/glfw/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/email/Documents/Work/librealsense/src/gl/../../include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/email/Documents/Work/librealsense/third-party/tclap/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/email/Documents/Work/build/common/fw"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				73,
+				74
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DWIN32 -D_DEBUG"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 15,
+					"define" : "BUILD_EASYLOGGINGPP"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "BUILD_SHARED_LIBS"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "CHECK_FOR_UPDATES"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "COM_MULTITHREADED"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "CURL_STATICLIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "ELPP_NO_DEFAULT_LOG_FILE"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "ELPP_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "HWM_OVER_XU"
+				},
+				{
+					"backtrace" : 22,
+					"define" : "INTERNAL_FW"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "RS2_USE_WMF_BACKEND"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 27,
+					"define" : "__SSSE3__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 29,
+					"path" : "C:/Users/email/Documents/Work/librealsense"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "C:/Users/email/Documents/Work/build"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/../../common"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/../../third-party"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/../../third-party/imgui"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/../../third-party/glad"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/../../third-party/tinyfiledialogs"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/res"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "C:/Users/email/Documents/Work/librealsense/tools/depth-quality/../../src"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "C:/Users/email/Documents/Work/build/libcurl/libcurl_install/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/email/Documents/Work/librealsense/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/email/Documents/Work/librealsense/third-party/rsutils/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/email/Documents/Work/build/third-party/json/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/email/Documents/Work/librealsense/third-party/glfw/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/email/Documents/Work/librealsense/src/gl/../../include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/email/Documents/Work/librealsense/third-party/tclap/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/email/Documents/Work/build/common/fw"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				77
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "realsense2::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "glfw::@281570e8f3ee925e5575"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "rsutils::@7bdc9af287c8f56d444a"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "libcurl::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "realsense2-gl::@1b4b631fec04592731c1"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "fw::@b8a021e3e9916457c947"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Tools"
+	},
+	"id" : "rs-depth-quality::@29993dda089901843c5d",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/realsense2"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MP /bigobj /wd4819 /MTd /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:X86 /debug /INCREMENTAL /subsystem:windows   /DELAYLOAD:/realsense2d.dll  /DELAYLOAD:/realsense2-gld.dll  /DELAYLOAD:/realsense2.dll  /DELAYLOAD:/realsense2-gl.dll",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\glfw3d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "opengl32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "glu32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\realsense2-gld.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "..\\..\\Debug\\fwd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "..\\..\\libcurl\\libcurl_install\\lib\\libcurl-d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "ws2_32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "crypt32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "..\\..\\Debug\\realsense2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "..\\..\\Debug\\rsutilsd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "..\\..\\common\\fw\\fw.res",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "rs-depth-quality",
+	"nameOnDisk" : "rs-depth-quality.exe",
+	"paths" : 
+	{
+		"build" : "tools/depth-quality",
+		"source" : "tools/depth-quality"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				63,
+				73,
+				78
+			]
+		},
+		{
+			"name" : "Utils",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				59,
+				60,
+				61,
+				62,
+				64,
+				65,
+				66
+			]
+		},
+		{
+			"name" : "SW-Update",
+			"sourceIndexes" : 
+			[
+				53,
+				54,
+				55,
+				56,
+				57,
+				58
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				67
+			]
+		},
+		{
+			"name" : "3rd Party",
+			"sourceIndexes" : 
+			[
+				68,
+				69,
+				70,
+				71,
+				72,
+				74,
+				75
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				76,
+				77
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 36,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/rsutils/include/rsutils/easylogging/elpp-init.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/animated.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/float2.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/float3.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/float4.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/matrix4.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/plane.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/rect.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/rendering.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/model-views.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/model-views.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/notifications.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/notifications.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/calibration-model.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/calibration-model.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/viewer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/viewer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/ux-window.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/ux-window.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/ux-alignment.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/ux-alignment.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/opengl3.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/opengl3.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/rs-config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/rs-config.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/os.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/os.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/fw-update-helper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/fw-update-helper.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/metadata-helper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/metadata-helper.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/output-model.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/output-model.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/skybox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/skybox.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/measurement.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/measurement.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/on-chip-calib.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/on-chip-calib.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/updates-model.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/updates-model.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/option-model.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/option-model.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/device-model.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/device-model.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/subdevice-model.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/subdevice-model.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/processing-block-model.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/processing-block-model.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/stream-model.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/stream-model.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/post-processing-filters.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/post-processing-filters.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/sw-update/http-downloader.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/sw-update/http-downloader.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/sw-update/dev-updates-profile.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/sw-update/dev-updates-profile.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/sw-update/versions-db-manager.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/sw-update/versions-db-manager.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/reflectivity/reflectivity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/reflectivity/reflectivity.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/utilities/imgui/wrap.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/utilities/imgui/wrap.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "tools/depth-quality/rs-depth-quality.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 37,
+			"path" : "tools/depth-quality/depth-quality-model.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "tools/depth-quality/depth-quality-model.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "tools/depth-quality/depth-metrics.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "common/realsense-ui-advanced-mode.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/imgui/imgui.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/imgui/imgui_draw.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/imgui/imgui_impl_glfw.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 37,
+			"path" : "third-party/imgui/imgui-fonts-karla.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 37,
+			"path" : "third-party/imgui/imgui-fonts-fontawesome.hpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 1,
+			"path" : "third-party/glad/glad.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 1,
+			"path" : "third-party/tinyfiledialogs/tinyfiledialogs.c",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 37,
+			"path" : "third-party/tinyfiledialogs/tinyfiledialogs.h",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 37,
+			"path" : "tools/depth-quality/res/resource.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 2,
+			"path" : "tools/depth-quality/res/realsense-viewer.rc",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "common/windows-app-bootstrap.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

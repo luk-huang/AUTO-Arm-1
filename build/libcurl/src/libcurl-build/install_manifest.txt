@@ -1,0 +1,17 @@
+C:/Users/email/Documents/Work/build/libcurl/libcurl_install/lib/libcurl-d.lib
+C:/Users/email/Documents/Work/build/libcurl/libcurl_install/bin/curl-config
+C:/Users/email/Documents/Work/build/libcurl/libcurl_install/lib/pkgconfig/libcurl.pc
+C:/Users/email/Documents/Work/build/libcurl/libcurl_install/include/curl/curl.h
+C:/Users/email/Documents/Work/build/libcurl/libcurl_install/include/curl/curlver.h
+C:/Users/email/Documents/Work/build/libcurl/libcurl_install/include/curl/easy.h
+C:/Users/email/Documents/Work/build/libcurl/libcurl_install/include/curl/mprintf.h
+C:/Users/email/Documents/Work/build/libcurl/libcurl_install/include/curl/multi.h
+C:/Users/email/Documents/Work/build/libcurl/libcurl_install/include/curl/options.h
+C:/Users/email/Documents/Work/build/libcurl/libcurl_install/include/curl/stdcheaders.h
+C:/Users/email/Documents/Work/build/libcurl/libcurl_install/include/curl/system.h
+C:/Users/email/Documents/Work/build/libcurl/libcurl_install/include/curl/typecheck-gcc.h
+C:/Users/email/Documents/Work/build/libcurl/libcurl_install/include/curl/urlapi.h
+C:/Users/email/Documents/Work/build/libcurl/libcurl_install/lib/cmake/CURL/CURLTargets.cmake
+C:/Users/email/Documents/Work/build/libcurl/libcurl_install/lib/cmake/CURL/CURLTargets-debug.cmake
+C:/Users/email/Documents/Work/build/libcurl/libcurl_install/lib/cmake/CURL/CURLConfigVersion.cmake
+C:/Users/email/Documents/Work/build/libcurl/libcurl_install/lib/cmake/CURL/CURLConfig.cmake

@@ -1,0 +1,7 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The patch step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+command (connected)=C:/Users/email/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/bin/cmake.exe;-Dcan_fetch=YES;-P;C:/Users/email/Documents/Work/build/external-projects/json-download/tmp/nlohmann_json-gitupdate.cmake
+command (disconnected)=C:/Users/email/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/bin/cmake.exe;-Dcan_fetch=NO;-P;C:/Users/email/Documents/Work/build/external-projects/json-download/tmp/nlohmann_json-gitupdate.cmake
+work_dir=C:/Users/email/Documents/Work/build/third-party/json

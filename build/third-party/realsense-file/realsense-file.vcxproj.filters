@@ -1,0 +1,606 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\lz4\lz4.c">
+      <Filter>Source Files\lz4</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\src\console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\src\debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\src\header.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\bag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\bag_player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\chunked_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\lz4_stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\message_instance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\query.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\uncompressed_stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\src\serialization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\src\lz4s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\src\xxhash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\src\duration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\src\rate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\src\time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\lz4\lz4.h">
+      <Filter>Header Files\lz4</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\include\console_bridge\console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\include\console_bridge\exportdecl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include\ros\cpp_common_decl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include\ros\datatypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include\ros\debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include\ros\exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include\ros\header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include\ros\macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include\ros\platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include\ros\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\diagnostic_msgs\KeyValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Accel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\AccelStamped.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\AccelWithCovariance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\AccelWithCovarianceStamped.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Inertia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\InertiaStamped.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Point32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\PointStamped.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Polygon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\PolygonStamped.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Pose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Pose2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\PoseArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\PoseStamped.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\PoseWithCovariance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\PoseWithCovarianceStamped.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\QuaternionStamped.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\TransformStamped.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Twist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\TwistStamped.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\TwistWithCovariance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\TwistWithCovarianceStamped.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Vector3Stamped.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Wrench.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\WrenchStamped.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\compressed_frame_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\controller_command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\controller_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\controller_vendor_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\extrinsics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\frame_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\legacy_headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\motion_intrinsics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\motion_stream_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\occupancy_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\pose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\stream_extrinsics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\stream_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\vendor_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_msgs\ImuIntrinsic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_msgs\Notification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_msgs\StreamInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\rosgraph_msgs\Clock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\rosgraph_msgs\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\rosgraph_msgs\TopicStatistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\BatteryState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\CameraInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\ChannelFloat32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\CompressedImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\FluidPressure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\Illuminance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\Imu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\JointState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\Joy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\JoyFeedback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\JoyFeedbackArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\LaserEcho.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\LaserScan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\MagneticField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\MultiDOFJointState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\MultiEchoLaserScan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\NavSatFix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\NavSatStatus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\PointCloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\PointCloud2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\PointField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\Range.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\RegionOfInterest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\RelativeHumidity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\SetCameraInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\SetCameraInfoRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\SetCameraInfoResponse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\Temperature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\TimeReference.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\distortion_models.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\fill_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\image_encodings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\impl\point_cloud2_iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\point_cloud2_iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\point_cloud_conversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\point_field_conversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Bool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Byte.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\ByteMultiArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Char.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\ColorRGBA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Duration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Empty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Float32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Float32MultiArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Float64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Float64MultiArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Int16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Int16MultiArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Int32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Int32MultiArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Int64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Int64MultiArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Int8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Int8MultiArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\MultiArrayDimension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\MultiArrayLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\String.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\UInt16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\UInt16MultiArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\UInt32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\UInt32MultiArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\UInt64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\UInt64MultiArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\UInt8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\UInt8MultiArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_bool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_double.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_float.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_int16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_int32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_int64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_int8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_uint16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_uint32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_uint64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_uint8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\header_deprecated_def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\trait_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\bag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\bag_player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\chunked_file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\message_instance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\query.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\structures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\view.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\include\ros\roscpp_serialization_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\include\ros\serialization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\include\ros\serialized_message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include\ros\builtin_message_traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include\ros\message_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include\ros\message_forward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include\ros\message_operations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include\ros\message_traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include\ros\service_traits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\include\roslz4\lz4s.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\src\xxhash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include\ros\duration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include\ros\impl\duration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include\ros\impl\time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include\ros\rate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include\ros\rostime_decl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include\ros\time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1AC6CC41-DB9A-3027-92EE-713222751A99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lz4">
+      <UniqueIdentifier>{D49B2145-DAAA-3937-8480-5F0582CBB449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D6DF85BE-47C8-3F09-B678-7523E59315FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lz4">
+      <UniqueIdentifier>{871879FB-1E0F-3382-B42E-FA4AB3A25854}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

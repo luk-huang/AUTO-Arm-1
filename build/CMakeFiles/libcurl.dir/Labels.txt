@@ -1,0 +1,14 @@
+# Target labels
+ libcurl
+# Source files and their labels
+C:/Users/email/Documents/Work/build/CMakeFiles/libcurl
+C:/Users/email/Documents/Work/build/CMakeFiles/2b8ab92f989cc22336d84ab8d2d654b3/libcurl.rule
+C:/Users/email/Documents/Work/build/CMakeFiles/89aefb92aba0ca5f86a3baf5f0db284e/libcurl-complete.rule
+C:/Users/email/Documents/Work/build/CMakeFiles/9e0c1ebb18a73489865185a493b0912f/libcurl-build.rule
+C:/Users/email/Documents/Work/build/CMakeFiles/9e0c1ebb18a73489865185a493b0912f/libcurl-configure.rule
+C:/Users/email/Documents/Work/build/CMakeFiles/9e0c1ebb18a73489865185a493b0912f/libcurl-download.rule
+C:/Users/email/Documents/Work/build/CMakeFiles/9e0c1ebb18a73489865185a493b0912f/libcurl-install.rule
+C:/Users/email/Documents/Work/build/CMakeFiles/9e0c1ebb18a73489865185a493b0912f/libcurl-mkdir.rule
+C:/Users/email/Documents/Work/build/CMakeFiles/9e0c1ebb18a73489865185a493b0912f/libcurl-patch.rule
+C:/Users/email/Documents/Work/build/CMakeFiles/9e0c1ebb18a73489865185a493b0912f/libcurl-test.rule
+C:/Users/email/Documents/Work/build/CMakeFiles/9e0c1ebb18a73489865185a493b0912f/libcurl-update.rule

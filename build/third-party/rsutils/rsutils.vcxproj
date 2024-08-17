@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DD5DDBAB-7F0F-330A-B14E-877110987B9F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
+    <ProjectName>rsutils</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\email\Documents\Work\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">rsutils.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">rsutilsd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\email\Documents\Work\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">rsutils.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">rsutils</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\email\Documents\Work\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">rsutils.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">rsutils</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\email\Documents\Work\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">rsutils.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">rsutils</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;ELPP_NO_DEFAULT_LOG_FILE;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;ELPP_NO_DEFAULT_LOG_FILE;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ELPP_NO_DEFAULT_LOG_FILE;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ELPP_NO_DEFAULT_LOG_FILE;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ELPP_NO_DEFAULT_LOG_FILE;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ELPP_NO_DEFAULT_LOG_FILE;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ELPP_NO_DEFAULT_LOG_FILE;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;ELPP_NO_DEFAULT_LOG_FILE;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/email/Documents/Work/librealsense/third-party/rsutils/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/email/Documents/Work/librealsense -BC:/Users/email/Documents/Work/build --check-stamp-file C:/Users/email/Documents/Work/build/third-party/rsutils/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\email\Documents\Work\build\third-party\rsutils\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/email/Documents/Work/librealsense/third-party/rsutils/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/email/Documents/Work/librealsense -BC:/Users/email/Documents/Work/build --check-stamp-file C:/Users/email/Documents/Work/build/third-party/rsutils/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\email\Documents\Work\build\third-party\rsutils\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/email/Documents/Work/librealsense/third-party/rsutils/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/email/Documents/Work/librealsense -BC:/Users/email/Documents/Work/build --check-stamp-file C:/Users/email/Documents/Work/build/third-party/rsutils/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\email\Documents\Work\build\third-party\rsutils\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/email/Documents/Work/librealsense/third-party/rsutils/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/email/Documents/Work/librealsense -BC:/Users/email/Documents/Work/build --check-stamp-file C:/Users/email/Documents/Work/build/third-party/rsutils/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\email\Documents\Work\build\third-party\rsutils\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\easyloggingpp\src\easylogging++.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\concurrency\concurrency.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\deferred.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\easylogging\easyloggingpp.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\json-config.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\json-fwd.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\json.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\lazy.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\number\crc32.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\number\float3.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\number\running-average.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\number\stabilized-value.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\os\ensure-console.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\os\executable-name.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\os\hresult.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\os\os.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\os\special-folder.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\py\json.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\py\pybind11.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\shared-ptr-singleton.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\signal.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\chrono.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\ellipsis.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\from.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\hexarray.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\hexdump.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\ip-address.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\make-less-screamy.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\nocase.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\shorten-json-string.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\slice.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\split.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\string-utilities.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\trim-newlines.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\windows.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\subscription.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\time\common.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\time\periodic-timer.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\time\stopwatch.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\time\timer.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\time\waiting-on.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\time\work-week.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\version.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\easyloggingpp\src\easylogging++.cc" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\configure-elpp-logger.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\crc32.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\dispatcher.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\ensure-console.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\executable-name.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\float3.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\from.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\hexarray.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\hexdump.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\ip-address.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\json.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\make-less-screamy.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\os.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\shorten-json-string.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\special-folder.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\version.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\work-week.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\email\Documents\Work\build\ZERO_CHECK.vcxproj">
+      <Project>{31BE3AB4-DBBE-3F36-A0D5-9D6FA6731D71}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

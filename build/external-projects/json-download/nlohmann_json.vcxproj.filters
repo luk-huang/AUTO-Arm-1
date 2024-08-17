@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\external-projects\json-download\CMakeFiles\f241d17175c7d47385380f9ed6179dcb\nlohmann_json-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\external-projects\json-download\CMakeFiles\f241d17175c7d47385380f9ed6179dcb\nlohmann_json-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\external-projects\json-download\CMakeFiles\f241d17175c7d47385380f9ed6179dcb\nlohmann_json-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\external-projects\json-download\CMakeFiles\f241d17175c7d47385380f9ed6179dcb\nlohmann_json-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\external-projects\json-download\CMakeFiles\f241d17175c7d47385380f9ed6179dcb\nlohmann_json-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\external-projects\json-download\CMakeFiles\f241d17175c7d47385380f9ed6179dcb\nlohmann_json-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\external-projects\json-download\CMakeFiles\f241d17175c7d47385380f9ed6179dcb\nlohmann_json-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\external-projects\json-download\CMakeFiles\6cd7c1aa0759ed0ff59d257609a7cfc3\nlohmann_json-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\external-projects\json-download\CMakeFiles\c54c0a76d39aaa2cb797197cbe4692a9\nlohmann_json.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\email\Documents\Work\build\external-projects\json-download\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\email\Documents\Work\build\external-projects\json-download\CMakeFiles\nlohmann_json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3D77C60D-BE56-3C25-A1B2-2DFA08B79F82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

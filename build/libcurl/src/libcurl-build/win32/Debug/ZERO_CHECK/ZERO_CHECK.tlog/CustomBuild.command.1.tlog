@@ -1,0 +1,10 @@
+^C:\USERS\EMAIL\DOCUMENTS\WORK\BUILD\LIBCURL\SRC\LIBCURL-BUILD\CMAKEFILES\AE71825DB7B527A5F13ED89329647D7E\GENERATE.STAMP.RULE
+setlocal
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/email/Documents/Work/build/third-party/libcurl -BC:/Users/email/Documents/Work/build/libcurl/src/libcurl-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/email/Documents/Work/build/libcurl/src/libcurl-build/CURL.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

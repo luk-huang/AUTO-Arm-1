@@ -1,0 +1,154 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "realsense2::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "glfw::@281570e8f3ee925e5575"
+		},
+		{
+			"id" : "realsense-file::@5533e881b3d6781fcfa6"
+		},
+		{
+			"id" : "rsutils::@7bdc9af287c8f56d444a"
+		},
+		{
+			"id" : "libcurl::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "rs-callback::@b2f5e1e0a78437e266c9"
+		},
+		{
+			"id" : "rs-align::@0ff3661e43e79869cb71"
+		},
+		{
+			"id" : "rs-multicam::@f6e4eccab19ca0f7f728"
+		},
+		{
+			"id" : "rs-pointcloud::@c363e20b820f6e481e09"
+		},
+		{
+			"id" : "rs-save-to-disk::@332d026fcd218f050a85"
+		},
+		{
+			"id" : "rs-align-gl::@6b2bce0f009ec9457c2d"
+		},
+		{
+			"id" : "realsense2-gl::@1b4b631fec04592731c1"
+		},
+		{
+			"id" : "rs-capture::@14516b3763a59b9dfad2"
+		},
+		{
+			"id" : "rs-hello-realsense::@905485064bff9c5a6dfb"
+		},
+		{
+			"id" : "rs-software-device::@2ebb7eaee9be233b7d22"
+		},
+		{
+			"id" : "rs-motion::@719a480b5ee438dd903b"
+		},
+		{
+			"id" : "rs-record-playback::@5edb153cf5464e8ca0b1"
+		},
+		{
+			"id" : "rs-gl::@98404075b3d096f3bc95"
+		},
+		{
+			"id" : "rs-color::@8b6a64de10d3ab074731"
+		},
+		{
+			"id" : "rs-align-advanced::@0ee548b7154f90470759"
+		},
+		{
+			"id" : "rs-measure::@c720b294b4e0b9de0b96"
+		},
+		{
+			"id" : "rs-sensor-control::@dc9e7c4e39455c16e7f0"
+		},
+		{
+			"id" : "rs-depth::@60ec41cd3356a01e436a"
+		},
+		{
+			"id" : "rs-distance::@a12fe937c0fd8a1caa57"
+		},
+		{
+			"id" : "rs-post-processing::@cecf4109d5ef1dca7571"
+		},
+		{
+			"id" : "rs-fw-logger::@251045b91ffa45f93696"
+		},
+		{
+			"id" : "rs-embed::@fe80b92fa8f78b4fbd4f"
+		},
+		{
+			"id" : "rs-record::@390efd627d107a64a8e8"
+		},
+		{
+			"id" : "rs-enumerate-devices::@91e731cc46fbc6af252e"
+		},
+		{
+			"id" : "realsense-viewer::@d472265b2bd8c49a9493"
+		},
+		{
+			"id" : "rs-terminal::@38b85bea787b1fb1aef3"
+		},
+		{
+			"id" : "rs-data-collect::@fbbb7f60fd3c2877545b"
+		},
+		{
+			"id" : "rs-fw-update::@c7d1c6993d662bd91ed9"
+		},
+		{
+			"id" : "rs-hdr::@788cfeadc1f705a053e6"
+		},
+		{
+			"id" : "rs-convert::@bc4a94ada3a12ffc20ba"
+		},
+		{
+			"id" : "rs-depth-quality::@29993dda089901843c5d"
+		},
+		{
+			"id" : "fw::@b8a021e3e9916457c947"
+		},
+		{
+			"id" : "rs-benchmark::@fb290bedab6065f3abb9"
+		},
+		{
+			"id" : "rs-rosbag-inspector::@4dbf159e62333efe31a7"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

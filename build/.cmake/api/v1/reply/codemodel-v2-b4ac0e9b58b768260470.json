@@ -1,0 +1,7728 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9,
+						30,
+						43
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-1f212bc25e2a661136a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						40,
+						43,
+						46,
+						80
+					]
+				},
+				{
+					"build" : "third-party/json/build",
+					"jsonFile" : "directory-third-party.json.build-Debug-7673bc6f087c6853dc1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/email/Documents/Work/build/third-party/json",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "third-party/rsutils",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third-party.rsutils-Debug-89316e5de5737a44d52a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "third-party/rsutils",
+					"targetIndexes" : 
+					[
+						12,
+						79
+					]
+				},
+				{
+					"build" : "third-party/realsense-file",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third-party.realsense-file-Debug-27947d10fab03c0fb10a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "third-party/realsense-file",
+					"targetIndexes" : 
+					[
+						15,
+						44
+					]
+				},
+				{
+					"build" : "third-party/tclap",
+					"jsonFile" : "directory-third-party.tclap-Debug-f78907a4ec541ab52c09.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "third-party/tclap"
+				},
+				{
+					"build" : "wrappers",
+					"jsonFile" : "directory-wrappers-Debug-632f8b16b7c71f89b3f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "wrappers",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "third-party/glfw",
+					"childIndexes" : 
+					[
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third-party.glfw-Debug-143963caef928bcb7152.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "third-party/glfw",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "third-party/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third-party.glfw.src-Debug-130166843584accf626d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 5,
+					"source" : "third-party/glfw/src",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "src/gl",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.gl-Debug-4a07771c4a6f600738d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "src/gl",
+					"targetIndexes" : 
+					[
+						26,
+						47
+					]
+				},
+				{
+					"build" : "examples",
+					"childIndexes" : 
+					[
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples-Debug-2e8964349ffea94e1580.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples"
+				},
+				{
+					"build" : "examples/hello-realsense",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.hello-realsense-Debug-299d0ef8abb1ba92f39e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 7,
+					"source" : "examples/hello-realsense",
+					"targetIndexes" : 
+					[
+						30,
+						66
+					]
+				},
+				{
+					"build" : "examples/software-device",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.software-device-Debug-edca57dc4fe425f6bc67.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 8,
+					"source" : "examples/software-device",
+					"targetIndexes" : 
+					[
+						33,
+						77
+					]
+				},
+				{
+					"build" : "examples/capture",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.capture-Debug-2ec3d21f8e9e16f96a46.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 9,
+					"source" : "examples/capture",
+					"targetIndexes" : 
+					[
+						36,
+						53
+					]
+				},
+				{
+					"build" : "examples/callback",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.callback-Debug-a3a614084a34616d5a50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 10,
+					"source" : "examples/callback",
+					"targetIndexes" : 
+					[
+						39,
+						52
+					]
+				},
+				{
+					"build" : "examples/save-to-disk",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.save-to-disk-Debug-dec4dc02a0a1ae25cd0d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 11,
+					"source" : "examples/save-to-disk",
+					"targetIndexes" : 
+					[
+						4,
+						75
+					]
+				},
+				{
+					"build" : "examples/multicam",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.multicam-Debug-8e4b754870736adaacdb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 12,
+					"source" : "examples/multicam",
+					"targetIndexes" : 
+					[
+						14,
+						69
+					]
+				},
+				{
+					"build" : "examples/pointcloud",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.pointcloud-Debug-4b4515fc3cbe40f07ebf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 13,
+					"source" : "examples/pointcloud",
+					"targetIndexes" : 
+					[
+						18,
+						70
+					]
+				},
+				{
+					"build" : "examples/align",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.align-Debug-6c4acb30b20bba8595d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 14,
+					"source" : "examples/align",
+					"targetIndexes" : 
+					[
+						25,
+						48
+					]
+				},
+				{
+					"build" : "examples/align-gl",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.align-gl-Debug-08e45c56490021673b5d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 15,
+					"source" : "examples/align-gl",
+					"targetIndexes" : 
+					[
+						35,
+						50
+					]
+				},
+				{
+					"build" : "examples/align-advanced",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.align-advanced-Debug-d12e808ca56e89535a5f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 16,
+					"source" : "examples/align-advanced",
+					"targetIndexes" : 
+					[
+						11,
+						49
+					]
+				},
+				{
+					"build" : "examples/sensor-control",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.sensor-control-Debug-57d1e3feffd9d7eea383.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 17,
+					"source" : "examples/sensor-control",
+					"targetIndexes" : 
+					[
+						29,
+						76
+					]
+				},
+				{
+					"build" : "examples/measure",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.measure-Debug-7e26a2a957bfed33b4e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 18,
+					"source" : "examples/measure",
+					"targetIndexes" : 
+					[
+						23,
+						67
+					]
+				},
+				{
+					"build" : "examples/C/depth",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.C.depth-Debug-9c886325dc68e10f81d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 19,
+					"source" : "examples/C/depth",
+					"targetIndexes" : 
+					[
+						1,
+						57
+					]
+				},
+				{
+					"build" : "examples/C/color",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.C.color-Debug-8c2fcb98d2e1fcdfd869.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 20,
+					"source" : "examples/C/color",
+					"targetIndexes" : 
+					[
+						17,
+						54
+					]
+				},
+				{
+					"build" : "examples/C/distance",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.C.distance-Debug-acaba05102f6e2f53051.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 21,
+					"source" : "examples/C/distance",
+					"targetIndexes" : 
+					[
+						38,
+						59
+					]
+				},
+				{
+					"build" : "examples/post-processing",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.post-processing-Debug-a93367af4033b7a2ff2e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 22,
+					"source" : "examples/post-processing",
+					"targetIndexes" : 
+					[
+						27,
+						71
+					]
+				},
+				{
+					"build" : "examples/record-playback",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.record-playback-Debug-8ce748b48cf0420b9fd7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 23,
+					"source" : "examples/record-playback",
+					"targetIndexes" : 
+					[
+						20,
+						73
+					]
+				},
+				{
+					"build" : "examples/motion",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.motion-Debug-29edd138d28a3c5aa8fd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 24,
+					"source" : "examples/motion",
+					"targetIndexes" : 
+					[
+						16,
+						68
+					]
+				},
+				{
+					"build" : "examples/gl",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.gl-Debug-6adc9b5d6bb233557e1c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 25,
+					"source" : "examples/gl",
+					"targetIndexes" : 
+					[
+						8,
+						64
+					]
+				},
+				{
+					"build" : "examples/hdr",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.hdr-Debug-d5b8237eac279c3c19a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 26,
+					"source" : "examples/hdr",
+					"targetIndexes" : 
+					[
+						0,
+						65
+					]
+				},
+				{
+					"build" : "tools",
+					"childIndexes" : 
+					[
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools-Debug-510b7838458e622ae347.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tools"
+				},
+				{
+					"build" : "tools/convert",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.convert-Debug-627949a6fce3a2e4ff69.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 27,
+					"source" : "tools/convert",
+					"targetIndexes" : 
+					[
+						37,
+						55
+					]
+				},
+				{
+					"build" : "tools/enumerate-devices",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.enumerate-devices-Debug-b31e95ac163de398e75c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 28,
+					"source" : "tools/enumerate-devices",
+					"targetIndexes" : 
+					[
+						34,
+						61
+					]
+				},
+				{
+					"build" : "tools/fw-logger",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.fw-logger-Debug-35dc189c00934086344d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 29,
+					"source" : "tools/fw-logger",
+					"targetIndexes" : 
+					[
+						31,
+						62
+					]
+				},
+				{
+					"build" : "tools/terminal",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.terminal-Debug-3d3e61cbeb73f9b7eece.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 30,
+					"source" : "tools/terminal",
+					"targetIndexes" : 
+					[
+						28,
+						78
+					]
+				},
+				{
+					"build" : "tools/recorder",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.recorder-Debug-06bc1360372f7519994f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 31,
+					"source" : "tools/recorder",
+					"targetIndexes" : 
+					[
+						24,
+						72
+					]
+				},
+				{
+					"build" : "tools/fw-update",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.fw-update-Debug-88dfc73c975f4dc6ef44.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 32,
+					"source" : "tools/fw-update",
+					"targetIndexes" : 
+					[
+						22,
+						63
+					]
+				},
+				{
+					"build" : "tools/embed",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.embed-Debug-4d4ca7f342ac941c7eff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 33,
+					"source" : "tools/embed",
+					"targetIndexes" : 
+					[
+						13,
+						60
+					]
+				},
+				{
+					"build" : "tools/data-collect",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.data-collect-Debug-7fd10636a5a1d2bc7bb9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 34,
+					"source" : "tools/data-collect",
+					"targetIndexes" : 
+					[
+						10,
+						56
+					]
+				},
+				{
+					"build" : "tools/realsense-viewer",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.realsense-viewer-Debug-d3c2b70f0e413125118b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 35,
+					"source" : "tools/realsense-viewer",
+					"targetIndexes" : 
+					[
+						7,
+						45
+					]
+				},
+				{
+					"build" : "tools/depth-quality",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.depth-quality-Debug-13164edcf7b6a74e8e24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 36,
+					"source" : "tools/depth-quality",
+					"targetIndexes" : 
+					[
+						6,
+						58
+					]
+				},
+				{
+					"build" : "tools/rosbag-inspector",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.rosbag-inspector-Debug-83a57f704d9579e6686b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 37,
+					"source" : "tools/rosbag-inspector",
+					"targetIndexes" : 
+					[
+						3,
+						74
+					]
+				},
+				{
+					"build" : "tools/benchmark",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.benchmark-Debug-0f5c2767ab0bf42eca6c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 38,
+					"source" : "tools/benchmark",
+					"targetIndexes" : 
+					[
+						2,
+						51
+					]
+				},
+				{
+					"build" : "common/fw",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-common.fw-Debug-7d1f5c2ac16fe9fb3549.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 39,
+					"source" : "common/fw",
+					"targetIndexes" : 
+					[
+						32,
+						41
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						4,
+						9,
+						30
+					],
+					"name" : "realsense2",
+					"targetIndexes" : 
+					[
+						5,
+						40,
+						43,
+						46,
+						80
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "rsutils",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12,
+						79
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "realsense-file",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15,
+						44
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "RealsenseWrappers",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6,
+						7
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						21,
+						42
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "realsense2-gl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26,
+						47
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "RealsenseExamplesHelloRealSense",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						30,
+						66
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "RealsenseExamplesSoftwareDevice",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						33,
+						77
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "RealsenseExamplesCapture",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						36,
+						53
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "rs-callback",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						39,
+						52
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "RealsenseExamplesSaveToDisk",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						75
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "RealsenseExamplesMulticam",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14,
+						69
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "RealsenseExamplesPointcloud",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						18,
+						70
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "RealsenseExamplesAlign",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						25,
+						48
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "RealsenseExamplesAlignGl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						35,
+						50
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "RealsenseExamplesAlignAdvanced",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						49
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "RealsenseExamplesSensorControl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						29,
+						76
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "RealsenseExamplesMeasure",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						23,
+						67
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "RealsenseExamples-Depth",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						57
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "RealsenseExamples-Color",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17,
+						54
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "RealsenseExamples-Distance",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						38,
+						59
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "RealsenseExamplesPost-Processing",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						27,
+						71
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "RealsenseExamplesRecord-Playback",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						20,
+						73
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "RealsenseExamplesMotion",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16,
+						68
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						28
+					],
+					"name" : "RealsenseExamplesGL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						64
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29
+					],
+					"name" : "RealsenseExamplesHdr",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						65
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						31
+					],
+					"name" : "RealsenseToolsConvert",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						37,
+						55
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						32
+					],
+					"name" : "RealsenseExamplesEnumerateDevices",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						34,
+						61
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						33
+					],
+					"name" : "RealsenseToolsFirmwareLogger",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						31,
+						62
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						34
+					],
+					"name" : "RealsenseToolsTerminal",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						28,
+						78
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						35
+					],
+					"name" : "RealsenseToolsRecorder",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						24,
+						72
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						36
+					],
+					"name" : "rs-fw-update",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						22,
+						63
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						37
+					],
+					"name" : "RealsenseToolsEmbed",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13,
+						60
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						38
+					],
+					"name" : "RealsenseToolsDataCollect",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						56
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						39
+					],
+					"name" : "realsense-viewer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						45
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						40
+					],
+					"name" : "rs-depth-quality",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						58
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						41
+					],
+					"name" : "RealsenseToolsRosbagInspector",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						74
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						42
+					],
+					"name" : "RealsenseToolsBenchmark",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						51
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						43
+					],
+					"name" : "fw",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						32,
+						41
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 29,
+					"id" : "ALL_BUILD::@788cfeadc1f705a053e6",
+					"jsonFile" : "target-ALL_BUILD-Debug-6ea2a9bf3992840f76d8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 26
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "ALL_BUILD::@60ec41cd3356a01e436a",
+					"jsonFile" : "target-ALL_BUILD-Debug-b547dd643a77c9a45d3f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "ALL_BUILD::@fb290bedab6065f3abb9",
+					"jsonFile" : "target-ALL_BUILD-Debug-4993ea97a0fcb94ac89f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 38
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "ALL_BUILD::@4dbf159e62333efe31a7",
+					"jsonFile" : "target-ALL_BUILD-Debug-f2c0dd85253f77d93f66.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 37
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ALL_BUILD::@332d026fcd218f050a85",
+					"jsonFile" : "target-ALL_BUILD-Debug-19b26e1f73403fee1e8f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-2f8cf960ae22adf7e782.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "ALL_BUILD::@29993dda089901843c5d",
+					"jsonFile" : "target-ALL_BUILD-Debug-e8b4cd8628ee1f61fa73.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 36
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "ALL_BUILD::@d472265b2bd8c49a9493",
+					"jsonFile" : "target-ALL_BUILD-Debug-4b00ff08015a51d9759c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 35
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "ALL_BUILD::@98404075b3d096f3bc95",
+					"jsonFile" : "target-ALL_BUILD-Debug-8ac3b18382de5afa4639.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 25
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@709e9adacab21fc0b8f0",
+					"jsonFile" : "target-ALL_BUILD-Debug-abab7cb3c4915d169fd0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "ALL_BUILD::@fbbb7f60fd3c2877545b",
+					"jsonFile" : "target-ALL_BUILD-Debug-f07af41d50ef006758f2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 34
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "ALL_BUILD::@0ee548b7154f90470759",
+					"jsonFile" : "target-ALL_BUILD-Debug-1491b3647666d5336585.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@7bdc9af287c8f56d444a",
+					"jsonFile" : "target-ALL_BUILD-Debug-25e8883fe1e390eee2f2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "ALL_BUILD::@fe80b92fa8f78b4fbd4f",
+					"jsonFile" : "target-ALL_BUILD-Debug-1f4550f6e35868549169.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 33
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@f6e4eccab19ca0f7f728",
+					"jsonFile" : "target-ALL_BUILD-Debug-c3da0f12f75008f5a89b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@5533e881b3d6781fcfa6",
+					"jsonFile" : "target-ALL_BUILD-Debug-f039ced76f0268227246.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "ALL_BUILD::@719a480b5ee438dd903b",
+					"jsonFile" : "target-ALL_BUILD-Debug-425b8fc4d192fb5b9e46.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "ALL_BUILD::@8b6a64de10d3ab074731",
+					"jsonFile" : "target-ALL_BUILD-Debug-662513de21d50fd34688.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "ALL_BUILD::@c363e20b820f6e481e09",
+					"jsonFile" : "target-ALL_BUILD-Debug-38e192d98c66af620955.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@c32b5851c214a76309b8",
+					"jsonFile" : "target-ALL_BUILD-Debug-f7989ccd68ae0ecf3b0b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "ALL_BUILD::@5edb153cf5464e8ca0b1",
+					"jsonFile" : "target-ALL_BUILD-Debug-c2e5942df47e1030ab4a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@556c92c420f14367ed0b",
+					"jsonFile" : "target-ALL_BUILD-Debug-22491bb8afbbc2f3263e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "ALL_BUILD::@c7d1c6993d662bd91ed9",
+					"jsonFile" : "target-ALL_BUILD-Debug-ea422fd608a567cf135b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 32
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "ALL_BUILD::@c720b294b4e0b9de0b96",
+					"jsonFile" : "target-ALL_BUILD-Debug-539ac0145a44e76e33ce.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "ALL_BUILD::@390efd627d107a64a8e8",
+					"jsonFile" : "target-ALL_BUILD-Debug-4976ef305901fb041570.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 31
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ALL_BUILD::@0ff3661e43e79869cb71",
+					"jsonFile" : "target-ALL_BUILD-Debug-b0428392b37a251e3628.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@1b4b631fec04592731c1",
+					"jsonFile" : "target-ALL_BUILD-Debug-ffa6b0a8861ce27e8069.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "ALL_BUILD::@cecf4109d5ef1dca7571",
+					"jsonFile" : "target-ALL_BUILD-Debug-26dfa800b3a6d14d9083.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "ALL_BUILD::@38b85bea787b1fb1aef3",
+					"jsonFile" : "target-ALL_BUILD-Debug-771aad3b601a00396ef4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 30
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "ALL_BUILD::@dc9e7c4e39455c16e7f0",
+					"jsonFile" : "target-ALL_BUILD-Debug-febef05d6d36a0ed5c37.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@905485064bff9c5a6dfb",
+					"jsonFile" : "target-ALL_BUILD-Debug-7b208c7f256dd2958714.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "ALL_BUILD::@251045b91ffa45f93696",
+					"jsonFile" : "target-ALL_BUILD-Debug-8b29f9de2ffe558ba8d3.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 29
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "ALL_BUILD::@b8a021e3e9916457c947",
+					"jsonFile" : "target-ALL_BUILD-Debug-9692e8bea361499d97b7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 39
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@2ebb7eaee9be233b7d22",
+					"jsonFile" : "target-ALL_BUILD-Debug-8f8b1bdb3818cc410c08.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "ALL_BUILD::@91e731cc46fbc6af252e",
+					"jsonFile" : "target-ALL_BUILD-Debug-5a497f98210ca673567b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 28
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "ALL_BUILD::@6b2bce0f009ec9457c2d",
+					"jsonFile" : "target-ALL_BUILD-Debug-998e6ea9a3682582694c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@14516b3763a59b9dfad2",
+					"jsonFile" : "target-ALL_BUILD-Debug-c7adc25af5d7af6b5854.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "ALL_BUILD::@bc4a94ada3a12ffc20ba",
+					"jsonFile" : "target-ALL_BUILD-Debug-d30b3a83f6eedc98a8eb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 27
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "ALL_BUILD::@a12fe937c0fd8a1caa57",
+					"jsonFile" : "target-ALL_BUILD-Debug-b184ebea5d9ca7e92a38.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ALL_BUILD::@b2f5e1e0a78437e266c9",
+					"jsonFile" : "target-ALL_BUILD-Debug-a37c85762e142aeb5f28.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-48946312000aa28b5844.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "fw::@b8a021e3e9916457c947",
+					"jsonFile" : "target-fw-Debug-942ecf148165893aac18.json",
+					"name" : "fw",
+					"projectIndex" : 39
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "glfw::@281570e8f3ee925e5575",
+					"jsonFile" : "target-glfw-Debug-12c0eb263a5872950eee.json",
+					"name" : "glfw",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libcurl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libcurl-Debug-9e425d699ada04ee5254.json",
+					"name" : "libcurl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "realsense-file::@5533e881b3d6781fcfa6",
+					"jsonFile" : "target-realsense-file-Debug-f2c90d40f98944601f3c.json",
+					"name" : "realsense-file",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "realsense-viewer::@d472265b2bd8c49a9493",
+					"jsonFile" : "target-realsense-viewer-Debug-2e001b3423366315e538.json",
+					"name" : "realsense-viewer",
+					"projectIndex" : 35
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "realsense2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realsense2-Debug-190c2a188b06adcfd8b7.json",
+					"name" : "realsense2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "realsense2-gl::@1b4b631fec04592731c1",
+					"jsonFile" : "target-realsense2-gl-Debug-c790037e9e6d48769121.json",
+					"name" : "realsense2-gl",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "rs-align::@0ff3661e43e79869cb71",
+					"jsonFile" : "target-rs-align-Debug-cdcb9a17a9b2851d7d52.json",
+					"name" : "rs-align",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "rs-align-advanced::@0ee548b7154f90470759",
+					"jsonFile" : "target-rs-align-advanced-Debug-53c1247ecf205067369e.json",
+					"name" : "rs-align-advanced",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "rs-align-gl::@6b2bce0f009ec9457c2d",
+					"jsonFile" : "target-rs-align-gl-Debug-36054d5d68ff5e7c57ff.json",
+					"name" : "rs-align-gl",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "rs-benchmark::@fb290bedab6065f3abb9",
+					"jsonFile" : "target-rs-benchmark-Debug-d8432e217f043ce3c742.json",
+					"name" : "rs-benchmark",
+					"projectIndex" : 38
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "rs-callback::@b2f5e1e0a78437e266c9",
+					"jsonFile" : "target-rs-callback-Debug-a96ad7968c1fe85cd5f8.json",
+					"name" : "rs-callback",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "rs-capture::@14516b3763a59b9dfad2",
+					"jsonFile" : "target-rs-capture-Debug-b4faf1843f335367d047.json",
+					"name" : "rs-capture",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "rs-color::@8b6a64de10d3ab074731",
+					"jsonFile" : "target-rs-color-Debug-dced2eccd041ba91461b.json",
+					"name" : "rs-color",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "rs-convert::@bc4a94ada3a12ffc20ba",
+					"jsonFile" : "target-rs-convert-Debug-aadae12138ffd28c9ff3.json",
+					"name" : "rs-convert",
+					"projectIndex" : 27
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "rs-data-collect::@fbbb7f60fd3c2877545b",
+					"jsonFile" : "target-rs-data-collect-Debug-3b04719906e93c37cbed.json",
+					"name" : "rs-data-collect",
+					"projectIndex" : 34
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "rs-depth::@60ec41cd3356a01e436a",
+					"jsonFile" : "target-rs-depth-Debug-c6ace72a9c7c524fa74f.json",
+					"name" : "rs-depth",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "rs-depth-quality::@29993dda089901843c5d",
+					"jsonFile" : "target-rs-depth-quality-Debug-078ecdf3b8261c9b3f1e.json",
+					"name" : "rs-depth-quality",
+					"projectIndex" : 36
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "rs-distance::@a12fe937c0fd8a1caa57",
+					"jsonFile" : "target-rs-distance-Debug-25de4cd86b2cb606889f.json",
+					"name" : "rs-distance",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "rs-embed::@fe80b92fa8f78b4fbd4f",
+					"jsonFile" : "target-rs-embed-Debug-2c8b9e463d84b908961a.json",
+					"name" : "rs-embed",
+					"projectIndex" : 33
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "rs-enumerate-devices::@91e731cc46fbc6af252e",
+					"jsonFile" : "target-rs-enumerate-devices-Debug-d76d3d37b8e32b23c3c9.json",
+					"name" : "rs-enumerate-devices",
+					"projectIndex" : 28
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "rs-fw-logger::@251045b91ffa45f93696",
+					"jsonFile" : "target-rs-fw-logger-Debug-3432c8da4e90f8c86fc9.json",
+					"name" : "rs-fw-logger",
+					"projectIndex" : 29
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "rs-fw-update::@c7d1c6993d662bd91ed9",
+					"jsonFile" : "target-rs-fw-update-Debug-a34099dd1ee00014a39e.json",
+					"name" : "rs-fw-update",
+					"projectIndex" : 32
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "rs-gl::@98404075b3d096f3bc95",
+					"jsonFile" : "target-rs-gl-Debug-e2be31836c6eef862251.json",
+					"name" : "rs-gl",
+					"projectIndex" : 25
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "rs-hdr::@788cfeadc1f705a053e6",
+					"jsonFile" : "target-rs-hdr-Debug-820ea5a052dee0f0ca67.json",
+					"name" : "rs-hdr",
+					"projectIndex" : 26
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "rs-hello-realsense::@905485064bff9c5a6dfb",
+					"jsonFile" : "target-rs-hello-realsense-Debug-f8c578c873cea933f753.json",
+					"name" : "rs-hello-realsense",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "rs-measure::@c720b294b4e0b9de0b96",
+					"jsonFile" : "target-rs-measure-Debug-5a5636d48620d4b8d239.json",
+					"name" : "rs-measure",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "rs-motion::@719a480b5ee438dd903b",
+					"jsonFile" : "target-rs-motion-Debug-33bd245099d4bd7a7412.json",
+					"name" : "rs-motion",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "rs-multicam::@f6e4eccab19ca0f7f728",
+					"jsonFile" : "target-rs-multicam-Debug-1b1b57f3de895d52733a.json",
+					"name" : "rs-multicam",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "rs-pointcloud::@c363e20b820f6e481e09",
+					"jsonFile" : "target-rs-pointcloud-Debug-cb70d6d3deba5ef2f390.json",
+					"name" : "rs-pointcloud",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "rs-post-processing::@cecf4109d5ef1dca7571",
+					"jsonFile" : "target-rs-post-processing-Debug-d5db070c59907097884e.json",
+					"name" : "rs-post-processing",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "rs-record::@390efd627d107a64a8e8",
+					"jsonFile" : "target-rs-record-Debug-eae9199cd5c962fb25f6.json",
+					"name" : "rs-record",
+					"projectIndex" : 31
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "rs-record-playback::@5edb153cf5464e8ca0b1",
+					"jsonFile" : "target-rs-record-playback-Debug-d9edd5d32a2aea6e2336.json",
+					"name" : "rs-record-playback",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "rs-rosbag-inspector::@4dbf159e62333efe31a7",
+					"jsonFile" : "target-rs-rosbag-inspector-Debug-1dcedd60780601ad3c28.json",
+					"name" : "rs-rosbag-inspector",
+					"projectIndex" : 37
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "rs-save-to-disk::@332d026fcd218f050a85",
+					"jsonFile" : "target-rs-save-to-disk-Debug-002479262e7b251fd67f.json",
+					"name" : "rs-save-to-disk",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "rs-sensor-control::@dc9e7c4e39455c16e7f0",
+					"jsonFile" : "target-rs-sensor-control-Debug-d6e46f66af331c46d1b9.json",
+					"name" : "rs-sensor-control",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "rs-software-device::@2ebb7eaee9be233b7d22",
+					"jsonFile" : "target-rs-software-device-Debug-13c68fd85ce3d4f9e64c.json",
+					"name" : "rs-software-device",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "rs-terminal::@38b85bea787b1fb1aef3",
+					"jsonFile" : "target-rs-terminal-Debug-32e37ed2213f858e8a83.json",
+					"name" : "rs-terminal",
+					"projectIndex" : 30
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rsutils::@7bdc9af287c8f56d444a",
+					"jsonFile" : "target-rsutils-Debug-f4e0ec01e2d45b2abe50.json",
+					"name" : "rsutils",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-682ca695890d38e89634.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9,
+						30,
+						43
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-5d7bb051c9b9f03cee99.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						40,
+						43,
+						46,
+						80
+					]
+				},
+				{
+					"build" : "third-party/json/build",
+					"jsonFile" : "directory-third-party.json.build-Release-7673bc6f087c6853dc1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/email/Documents/Work/build/third-party/json",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "third-party/rsutils",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third-party.rsutils-Release-10e6b7244ad6167d6111.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "third-party/rsutils",
+					"targetIndexes" : 
+					[
+						12,
+						79
+					]
+				},
+				{
+					"build" : "third-party/realsense-file",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third-party.realsense-file-Release-1a9d522476209f4956be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "third-party/realsense-file",
+					"targetIndexes" : 
+					[
+						15,
+						44
+					]
+				},
+				{
+					"build" : "third-party/tclap",
+					"jsonFile" : "directory-third-party.tclap-Release-f78907a4ec541ab52c09.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "third-party/tclap"
+				},
+				{
+					"build" : "wrappers",
+					"jsonFile" : "directory-wrappers-Release-632f8b16b7c71f89b3f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "wrappers",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "third-party/glfw",
+					"childIndexes" : 
+					[
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third-party.glfw-Release-143963caef928bcb7152.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "third-party/glfw",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "third-party/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third-party.glfw.src-Release-2c8b38ef3589da3a5fa2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 5,
+					"source" : "third-party/glfw/src",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "src/gl",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.gl-Release-53146f591580733ed562.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "src/gl",
+					"targetIndexes" : 
+					[
+						26,
+						47
+					]
+				},
+				{
+					"build" : "examples",
+					"childIndexes" : 
+					[
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples-Release-2e8964349ffea94e1580.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples"
+				},
+				{
+					"build" : "examples/hello-realsense",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.hello-realsense-Release-83eccdc945d7fd6ed766.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 7,
+					"source" : "examples/hello-realsense",
+					"targetIndexes" : 
+					[
+						30,
+						66
+					]
+				},
+				{
+					"build" : "examples/software-device",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.software-device-Release-8e72f97e6a9970be4eac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 8,
+					"source" : "examples/software-device",
+					"targetIndexes" : 
+					[
+						33,
+						77
+					]
+				},
+				{
+					"build" : "examples/capture",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.capture-Release-5d3b78fb69eca3b09b6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 9,
+					"source" : "examples/capture",
+					"targetIndexes" : 
+					[
+						36,
+						53
+					]
+				},
+				{
+					"build" : "examples/callback",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.callback-Release-225da5478d07bbb75cee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 10,
+					"source" : "examples/callback",
+					"targetIndexes" : 
+					[
+						39,
+						52
+					]
+				},
+				{
+					"build" : "examples/save-to-disk",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.save-to-disk-Release-d42cab72633effed655b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 11,
+					"source" : "examples/save-to-disk",
+					"targetIndexes" : 
+					[
+						4,
+						75
+					]
+				},
+				{
+					"build" : "examples/multicam",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.multicam-Release-2688e0422051b13a4635.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 12,
+					"source" : "examples/multicam",
+					"targetIndexes" : 
+					[
+						14,
+						69
+					]
+				},
+				{
+					"build" : "examples/pointcloud",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.pointcloud-Release-e3aefa004f0040802541.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 13,
+					"source" : "examples/pointcloud",
+					"targetIndexes" : 
+					[
+						18,
+						70
+					]
+				},
+				{
+					"build" : "examples/align",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.align-Release-ca4f2cab9ccf5c0f6904.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 14,
+					"source" : "examples/align",
+					"targetIndexes" : 
+					[
+						25,
+						48
+					]
+				},
+				{
+					"build" : "examples/align-gl",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.align-gl-Release-12155634a2dfe7a13f15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 15,
+					"source" : "examples/align-gl",
+					"targetIndexes" : 
+					[
+						35,
+						50
+					]
+				},
+				{
+					"build" : "examples/align-advanced",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.align-advanced-Release-c92e07f39d0bd669c052.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 16,
+					"source" : "examples/align-advanced",
+					"targetIndexes" : 
+					[
+						11,
+						49
+					]
+				},
+				{
+					"build" : "examples/sensor-control",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.sensor-control-Release-1165c580cc5b45d7a999.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 17,
+					"source" : "examples/sensor-control",
+					"targetIndexes" : 
+					[
+						29,
+						76
+					]
+				},
+				{
+					"build" : "examples/measure",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.measure-Release-26d2fb428a0f48abc751.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 18,
+					"source" : "examples/measure",
+					"targetIndexes" : 
+					[
+						23,
+						67
+					]
+				},
+				{
+					"build" : "examples/C/depth",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.C.depth-Release-262aa9ccb976aa189f37.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 19,
+					"source" : "examples/C/depth",
+					"targetIndexes" : 
+					[
+						1,
+						57
+					]
+				},
+				{
+					"build" : "examples/C/color",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.C.color-Release-9328e3c6634f0d189bea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 20,
+					"source" : "examples/C/color",
+					"targetIndexes" : 
+					[
+						17,
+						54
+					]
+				},
+				{
+					"build" : "examples/C/distance",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.C.distance-Release-f7e5c6bcdad73d895abd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 21,
+					"source" : "examples/C/distance",
+					"targetIndexes" : 
+					[
+						38,
+						59
+					]
+				},
+				{
+					"build" : "examples/post-processing",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.post-processing-Release-577e094b78cd2fb83264.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 22,
+					"source" : "examples/post-processing",
+					"targetIndexes" : 
+					[
+						27,
+						71
+					]
+				},
+				{
+					"build" : "examples/record-playback",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.record-playback-Release-b5efeef4f7f401ecfd07.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 23,
+					"source" : "examples/record-playback",
+					"targetIndexes" : 
+					[
+						20,
+						73
+					]
+				},
+				{
+					"build" : "examples/motion",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.motion-Release-a465004dd175123959b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 24,
+					"source" : "examples/motion",
+					"targetIndexes" : 
+					[
+						16,
+						68
+					]
+				},
+				{
+					"build" : "examples/gl",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.gl-Release-666a112b7b0568a5117d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 25,
+					"source" : "examples/gl",
+					"targetIndexes" : 
+					[
+						8,
+						64
+					]
+				},
+				{
+					"build" : "examples/hdr",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.hdr-Release-5ad63ea9ba2ede46b9bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 26,
+					"source" : "examples/hdr",
+					"targetIndexes" : 
+					[
+						0,
+						65
+					]
+				},
+				{
+					"build" : "tools",
+					"childIndexes" : 
+					[
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools-Release-510b7838458e622ae347.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tools"
+				},
+				{
+					"build" : "tools/convert",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.convert-Release-07ecb2b5b4db4c8621e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 27,
+					"source" : "tools/convert",
+					"targetIndexes" : 
+					[
+						37,
+						55
+					]
+				},
+				{
+					"build" : "tools/enumerate-devices",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.enumerate-devices-Release-e249ff6d87b4201ed454.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 28,
+					"source" : "tools/enumerate-devices",
+					"targetIndexes" : 
+					[
+						34,
+						61
+					]
+				},
+				{
+					"build" : "tools/fw-logger",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.fw-logger-Release-32e2804f261ee3704900.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 29,
+					"source" : "tools/fw-logger",
+					"targetIndexes" : 
+					[
+						31,
+						62
+					]
+				},
+				{
+					"build" : "tools/terminal",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.terminal-Release-f5ed556457cffaeaaa6e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 30,
+					"source" : "tools/terminal",
+					"targetIndexes" : 
+					[
+						28,
+						78
+					]
+				},
+				{
+					"build" : "tools/recorder",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.recorder-Release-305486072e06f7392406.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 31,
+					"source" : "tools/recorder",
+					"targetIndexes" : 
+					[
+						24,
+						72
+					]
+				},
+				{
+					"build" : "tools/fw-update",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.fw-update-Release-b6e03114706dd33af35d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 32,
+					"source" : "tools/fw-update",
+					"targetIndexes" : 
+					[
+						22,
+						63
+					]
+				},
+				{
+					"build" : "tools/embed",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.embed-Release-8c0c72b34ebe0acc716d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 33,
+					"source" : "tools/embed",
+					"targetIndexes" : 
+					[
+						13,
+						60
+					]
+				},
+				{
+					"build" : "tools/data-collect",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.data-collect-Release-66dcc0631c6df43b37ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 34,
+					"source" : "tools/data-collect",
+					"targetIndexes" : 
+					[
+						10,
+						56
+					]
+				},
+				{
+					"build" : "tools/realsense-viewer",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.realsense-viewer-Release-4a5ad393497c137fd5a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 35,
+					"source" : "tools/realsense-viewer",
+					"targetIndexes" : 
+					[
+						7,
+						45
+					]
+				},
+				{
+					"build" : "tools/depth-quality",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.depth-quality-Release-badec9aad9716ddc5881.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 36,
+					"source" : "tools/depth-quality",
+					"targetIndexes" : 
+					[
+						6,
+						58
+					]
+				},
+				{
+					"build" : "tools/rosbag-inspector",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.rosbag-inspector-Release-e61672005e124fcc8b15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 37,
+					"source" : "tools/rosbag-inspector",
+					"targetIndexes" : 
+					[
+						3,
+						74
+					]
+				},
+				{
+					"build" : "tools/benchmark",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.benchmark-Release-32f37e4bc4854b4f94d7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 38,
+					"source" : "tools/benchmark",
+					"targetIndexes" : 
+					[
+						2,
+						51
+					]
+				},
+				{
+					"build" : "common/fw",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-common.fw-Release-a07a80eec76cc0d655cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 39,
+					"source" : "common/fw",
+					"targetIndexes" : 
+					[
+						32,
+						41
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						4,
+						9,
+						30
+					],
+					"name" : "realsense2",
+					"targetIndexes" : 
+					[
+						5,
+						40,
+						43,
+						46,
+						80
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "rsutils",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12,
+						79
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "realsense-file",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15,
+						44
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "RealsenseWrappers",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6,
+						7
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						21,
+						42
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "realsense2-gl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26,
+						47
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "RealsenseExamplesHelloRealSense",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						30,
+						66
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "RealsenseExamplesSoftwareDevice",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						33,
+						77
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "RealsenseExamplesCapture",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						36,
+						53
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "rs-callback",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						39,
+						52
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "RealsenseExamplesSaveToDisk",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						75
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "RealsenseExamplesMulticam",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14,
+						69
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "RealsenseExamplesPointcloud",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						18,
+						70
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "RealsenseExamplesAlign",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						25,
+						48
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "RealsenseExamplesAlignGl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						35,
+						50
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "RealsenseExamplesAlignAdvanced",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						49
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "RealsenseExamplesSensorControl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						29,
+						76
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "RealsenseExamplesMeasure",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						23,
+						67
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "RealsenseExamples-Depth",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						57
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "RealsenseExamples-Color",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17,
+						54
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "RealsenseExamples-Distance",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						38,
+						59
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "RealsenseExamplesPost-Processing",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						27,
+						71
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "RealsenseExamplesRecord-Playback",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						20,
+						73
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "RealsenseExamplesMotion",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16,
+						68
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						28
+					],
+					"name" : "RealsenseExamplesGL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						64
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29
+					],
+					"name" : "RealsenseExamplesHdr",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						65
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						31
+					],
+					"name" : "RealsenseToolsConvert",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						37,
+						55
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						32
+					],
+					"name" : "RealsenseExamplesEnumerateDevices",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						34,
+						61
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						33
+					],
+					"name" : "RealsenseToolsFirmwareLogger",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						31,
+						62
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						34
+					],
+					"name" : "RealsenseToolsTerminal",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						28,
+						78
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						35
+					],
+					"name" : "RealsenseToolsRecorder",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						24,
+						72
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						36
+					],
+					"name" : "rs-fw-update",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						22,
+						63
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						37
+					],
+					"name" : "RealsenseToolsEmbed",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13,
+						60
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						38
+					],
+					"name" : "RealsenseToolsDataCollect",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						56
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						39
+					],
+					"name" : "realsense-viewer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						45
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						40
+					],
+					"name" : "rs-depth-quality",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						58
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						41
+					],
+					"name" : "RealsenseToolsRosbagInspector",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						74
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						42
+					],
+					"name" : "RealsenseToolsBenchmark",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						51
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						43
+					],
+					"name" : "fw",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						32,
+						41
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 29,
+					"id" : "ALL_BUILD::@788cfeadc1f705a053e6",
+					"jsonFile" : "target-ALL_BUILD-Release-6ea2a9bf3992840f76d8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 26
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "ALL_BUILD::@60ec41cd3356a01e436a",
+					"jsonFile" : "target-ALL_BUILD-Release-b547dd643a77c9a45d3f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "ALL_BUILD::@fb290bedab6065f3abb9",
+					"jsonFile" : "target-ALL_BUILD-Release-4993ea97a0fcb94ac89f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 38
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "ALL_BUILD::@4dbf159e62333efe31a7",
+					"jsonFile" : "target-ALL_BUILD-Release-f2c0dd85253f77d93f66.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 37
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ALL_BUILD::@332d026fcd218f050a85",
+					"jsonFile" : "target-ALL_BUILD-Release-19b26e1f73403fee1e8f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-2f8cf960ae22adf7e782.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "ALL_BUILD::@29993dda089901843c5d",
+					"jsonFile" : "target-ALL_BUILD-Release-e8b4cd8628ee1f61fa73.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 36
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "ALL_BUILD::@d472265b2bd8c49a9493",
+					"jsonFile" : "target-ALL_BUILD-Release-4b00ff08015a51d9759c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 35
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "ALL_BUILD::@98404075b3d096f3bc95",
+					"jsonFile" : "target-ALL_BUILD-Release-8ac3b18382de5afa4639.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 25
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@709e9adacab21fc0b8f0",
+					"jsonFile" : "target-ALL_BUILD-Release-abab7cb3c4915d169fd0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "ALL_BUILD::@fbbb7f60fd3c2877545b",
+					"jsonFile" : "target-ALL_BUILD-Release-f07af41d50ef006758f2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 34
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "ALL_BUILD::@0ee548b7154f90470759",
+					"jsonFile" : "target-ALL_BUILD-Release-1491b3647666d5336585.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@7bdc9af287c8f56d444a",
+					"jsonFile" : "target-ALL_BUILD-Release-25e8883fe1e390eee2f2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "ALL_BUILD::@fe80b92fa8f78b4fbd4f",
+					"jsonFile" : "target-ALL_BUILD-Release-1f4550f6e35868549169.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 33
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@f6e4eccab19ca0f7f728",
+					"jsonFile" : "target-ALL_BUILD-Release-c3da0f12f75008f5a89b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@5533e881b3d6781fcfa6",
+					"jsonFile" : "target-ALL_BUILD-Release-f039ced76f0268227246.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "ALL_BUILD::@719a480b5ee438dd903b",
+					"jsonFile" : "target-ALL_BUILD-Release-425b8fc4d192fb5b9e46.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "ALL_BUILD::@8b6a64de10d3ab074731",
+					"jsonFile" : "target-ALL_BUILD-Release-662513de21d50fd34688.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "ALL_BUILD::@c363e20b820f6e481e09",
+					"jsonFile" : "target-ALL_BUILD-Release-38e192d98c66af620955.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@c32b5851c214a76309b8",
+					"jsonFile" : "target-ALL_BUILD-Release-f7989ccd68ae0ecf3b0b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "ALL_BUILD::@5edb153cf5464e8ca0b1",
+					"jsonFile" : "target-ALL_BUILD-Release-c2e5942df47e1030ab4a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@556c92c420f14367ed0b",
+					"jsonFile" : "target-ALL_BUILD-Release-22491bb8afbbc2f3263e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "ALL_BUILD::@c7d1c6993d662bd91ed9",
+					"jsonFile" : "target-ALL_BUILD-Release-ea422fd608a567cf135b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 32
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "ALL_BUILD::@c720b294b4e0b9de0b96",
+					"jsonFile" : "target-ALL_BUILD-Release-539ac0145a44e76e33ce.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "ALL_BUILD::@390efd627d107a64a8e8",
+					"jsonFile" : "target-ALL_BUILD-Release-4976ef305901fb041570.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 31
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ALL_BUILD::@0ff3661e43e79869cb71",
+					"jsonFile" : "target-ALL_BUILD-Release-b0428392b37a251e3628.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@1b4b631fec04592731c1",
+					"jsonFile" : "target-ALL_BUILD-Release-ffa6b0a8861ce27e8069.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "ALL_BUILD::@cecf4109d5ef1dca7571",
+					"jsonFile" : "target-ALL_BUILD-Release-26dfa800b3a6d14d9083.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "ALL_BUILD::@38b85bea787b1fb1aef3",
+					"jsonFile" : "target-ALL_BUILD-Release-771aad3b601a00396ef4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 30
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "ALL_BUILD::@dc9e7c4e39455c16e7f0",
+					"jsonFile" : "target-ALL_BUILD-Release-febef05d6d36a0ed5c37.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@905485064bff9c5a6dfb",
+					"jsonFile" : "target-ALL_BUILD-Release-7b208c7f256dd2958714.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "ALL_BUILD::@251045b91ffa45f93696",
+					"jsonFile" : "target-ALL_BUILD-Release-8b29f9de2ffe558ba8d3.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 29
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "ALL_BUILD::@b8a021e3e9916457c947",
+					"jsonFile" : "target-ALL_BUILD-Release-9692e8bea361499d97b7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 39
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@2ebb7eaee9be233b7d22",
+					"jsonFile" : "target-ALL_BUILD-Release-8f8b1bdb3818cc410c08.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "ALL_BUILD::@91e731cc46fbc6af252e",
+					"jsonFile" : "target-ALL_BUILD-Release-5a497f98210ca673567b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 28
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "ALL_BUILD::@6b2bce0f009ec9457c2d",
+					"jsonFile" : "target-ALL_BUILD-Release-998e6ea9a3682582694c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@14516b3763a59b9dfad2",
+					"jsonFile" : "target-ALL_BUILD-Release-c7adc25af5d7af6b5854.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "ALL_BUILD::@bc4a94ada3a12ffc20ba",
+					"jsonFile" : "target-ALL_BUILD-Release-d30b3a83f6eedc98a8eb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 27
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "ALL_BUILD::@a12fe937c0fd8a1caa57",
+					"jsonFile" : "target-ALL_BUILD-Release-b184ebea5d9ca7e92a38.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ALL_BUILD::@b2f5e1e0a78437e266c9",
+					"jsonFile" : "target-ALL_BUILD-Release-a37c85762e142aeb5f28.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-48946312000aa28b5844.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "fw::@b8a021e3e9916457c947",
+					"jsonFile" : "target-fw-Release-0bb2d6b7388dce879f44.json",
+					"name" : "fw",
+					"projectIndex" : 39
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "glfw::@281570e8f3ee925e5575",
+					"jsonFile" : "target-glfw-Release-198ea1017e87de37844f.json",
+					"name" : "glfw",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libcurl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libcurl-Release-9e425d699ada04ee5254.json",
+					"name" : "libcurl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "realsense-file::@5533e881b3d6781fcfa6",
+					"jsonFile" : "target-realsense-file-Release-44a19d9c7b27d9ce710a.json",
+					"name" : "realsense-file",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "realsense-viewer::@d472265b2bd8c49a9493",
+					"jsonFile" : "target-realsense-viewer-Release-ac45bbd073cdf6941b66.json",
+					"name" : "realsense-viewer",
+					"projectIndex" : 35
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "realsense2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realsense2-Release-6ac46ae8c67c42996abb.json",
+					"name" : "realsense2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "realsense2-gl::@1b4b631fec04592731c1",
+					"jsonFile" : "target-realsense2-gl-Release-2395632a703834f35be4.json",
+					"name" : "realsense2-gl",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "rs-align::@0ff3661e43e79869cb71",
+					"jsonFile" : "target-rs-align-Release-53bbb5a8a7ab4294bd17.json",
+					"name" : "rs-align",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "rs-align-advanced::@0ee548b7154f90470759",
+					"jsonFile" : "target-rs-align-advanced-Release-a6210b20f64e9601d5c5.json",
+					"name" : "rs-align-advanced",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "rs-align-gl::@6b2bce0f009ec9457c2d",
+					"jsonFile" : "target-rs-align-gl-Release-0213414b64d187da6645.json",
+					"name" : "rs-align-gl",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "rs-benchmark::@fb290bedab6065f3abb9",
+					"jsonFile" : "target-rs-benchmark-Release-88ddc51f42a202332ef1.json",
+					"name" : "rs-benchmark",
+					"projectIndex" : 38
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "rs-callback::@b2f5e1e0a78437e266c9",
+					"jsonFile" : "target-rs-callback-Release-a56d35f9ca0b54fe2959.json",
+					"name" : "rs-callback",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "rs-capture::@14516b3763a59b9dfad2",
+					"jsonFile" : "target-rs-capture-Release-cb893af34411d82ce80d.json",
+					"name" : "rs-capture",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "rs-color::@8b6a64de10d3ab074731",
+					"jsonFile" : "target-rs-color-Release-a464a87eb4ba8f8b32a4.json",
+					"name" : "rs-color",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "rs-convert::@bc4a94ada3a12ffc20ba",
+					"jsonFile" : "target-rs-convert-Release-6591a6432120dec6cebf.json",
+					"name" : "rs-convert",
+					"projectIndex" : 27
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "rs-data-collect::@fbbb7f60fd3c2877545b",
+					"jsonFile" : "target-rs-data-collect-Release-651a96a208110a2f6b00.json",
+					"name" : "rs-data-collect",
+					"projectIndex" : 34
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "rs-depth::@60ec41cd3356a01e436a",
+					"jsonFile" : "target-rs-depth-Release-813cca0d4b8f041f4678.json",
+					"name" : "rs-depth",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "rs-depth-quality::@29993dda089901843c5d",
+					"jsonFile" : "target-rs-depth-quality-Release-7c3af0970a69e78bc77a.json",
+					"name" : "rs-depth-quality",
+					"projectIndex" : 36
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "rs-distance::@a12fe937c0fd8a1caa57",
+					"jsonFile" : "target-rs-distance-Release-2e275047918cfe1aaf0f.json",
+					"name" : "rs-distance",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "rs-embed::@fe80b92fa8f78b4fbd4f",
+					"jsonFile" : "target-rs-embed-Release-61436e8bca6841aca442.json",
+					"name" : "rs-embed",
+					"projectIndex" : 33
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "rs-enumerate-devices::@91e731cc46fbc6af252e",
+					"jsonFile" : "target-rs-enumerate-devices-Release-b3c95b68486e505e401e.json",
+					"name" : "rs-enumerate-devices",
+					"projectIndex" : 28
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "rs-fw-logger::@251045b91ffa45f93696",
+					"jsonFile" : "target-rs-fw-logger-Release-d20ff287d3801a328848.json",
+					"name" : "rs-fw-logger",
+					"projectIndex" : 29
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "rs-fw-update::@c7d1c6993d662bd91ed9",
+					"jsonFile" : "target-rs-fw-update-Release-8ff9835a8623e0cb40da.json",
+					"name" : "rs-fw-update",
+					"projectIndex" : 32
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "rs-gl::@98404075b3d096f3bc95",
+					"jsonFile" : "target-rs-gl-Release-8c7f5a3091a493c1d68f.json",
+					"name" : "rs-gl",
+					"projectIndex" : 25
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "rs-hdr::@788cfeadc1f705a053e6",
+					"jsonFile" : "target-rs-hdr-Release-0412c1f048ba9cb1f838.json",
+					"name" : "rs-hdr",
+					"projectIndex" : 26
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "rs-hello-realsense::@905485064bff9c5a6dfb",
+					"jsonFile" : "target-rs-hello-realsense-Release-8ed54042124294e81422.json",
+					"name" : "rs-hello-realsense",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "rs-measure::@c720b294b4e0b9de0b96",
+					"jsonFile" : "target-rs-measure-Release-10cecb7815141bf83437.json",
+					"name" : "rs-measure",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "rs-motion::@719a480b5ee438dd903b",
+					"jsonFile" : "target-rs-motion-Release-7d311959338534c06655.json",
+					"name" : "rs-motion",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "rs-multicam::@f6e4eccab19ca0f7f728",
+					"jsonFile" : "target-rs-multicam-Release-9779d391f431b11ed1c1.json",
+					"name" : "rs-multicam",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "rs-pointcloud::@c363e20b820f6e481e09",
+					"jsonFile" : "target-rs-pointcloud-Release-5d7deecc8277a7a8efe2.json",
+					"name" : "rs-pointcloud",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "rs-post-processing::@cecf4109d5ef1dca7571",
+					"jsonFile" : "target-rs-post-processing-Release-6ff80105a119323f733e.json",
+					"name" : "rs-post-processing",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "rs-record::@390efd627d107a64a8e8",
+					"jsonFile" : "target-rs-record-Release-b387fb787db89cdf04ab.json",
+					"name" : "rs-record",
+					"projectIndex" : 31
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "rs-record-playback::@5edb153cf5464e8ca0b1",
+					"jsonFile" : "target-rs-record-playback-Release-564ceb4e41cac07d207e.json",
+					"name" : "rs-record-playback",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "rs-rosbag-inspector::@4dbf159e62333efe31a7",
+					"jsonFile" : "target-rs-rosbag-inspector-Release-2f131a02c8630a85ba1a.json",
+					"name" : "rs-rosbag-inspector",
+					"projectIndex" : 37
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "rs-save-to-disk::@332d026fcd218f050a85",
+					"jsonFile" : "target-rs-save-to-disk-Release-2983e0d2cc862ea039b9.json",
+					"name" : "rs-save-to-disk",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "rs-sensor-control::@dc9e7c4e39455c16e7f0",
+					"jsonFile" : "target-rs-sensor-control-Release-3c291ae3ec941331e35b.json",
+					"name" : "rs-sensor-control",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "rs-software-device::@2ebb7eaee9be233b7d22",
+					"jsonFile" : "target-rs-software-device-Release-41afd01deb1f9d25c676.json",
+					"name" : "rs-software-device",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "rs-terminal::@38b85bea787b1fb1aef3",
+					"jsonFile" : "target-rs-terminal-Release-023a24b8c52d1cfb041a.json",
+					"name" : "rs-terminal",
+					"projectIndex" : 30
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rsutils::@7bdc9af287c8f56d444a",
+					"jsonFile" : "target-rsutils-Release-6b2b0e718e96dd68ab95.json",
+					"name" : "rsutils",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-682ca695890d38e89634.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9,
+						30,
+						43
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-8da082dc904f7fc6f449.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						40,
+						43,
+						46,
+						80
+					]
+				},
+				{
+					"build" : "third-party/json/build",
+					"jsonFile" : "directory-third-party.json.build-MinSizeRel-7673bc6f087c6853dc1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/email/Documents/Work/build/third-party/json",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "third-party/rsutils",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third-party.rsutils-MinSizeRel-89782620bdb75b91071f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "third-party/rsutils",
+					"targetIndexes" : 
+					[
+						12,
+						79
+					]
+				},
+				{
+					"build" : "third-party/realsense-file",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third-party.realsense-file-MinSizeRel-70563a5414c94ac1673c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "third-party/realsense-file",
+					"targetIndexes" : 
+					[
+						15,
+						44
+					]
+				},
+				{
+					"build" : "third-party/tclap",
+					"jsonFile" : "directory-third-party.tclap-MinSizeRel-f78907a4ec541ab52c09.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "third-party/tclap"
+				},
+				{
+					"build" : "wrappers",
+					"jsonFile" : "directory-wrappers-MinSizeRel-632f8b16b7c71f89b3f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "wrappers",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "third-party/glfw",
+					"childIndexes" : 
+					[
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third-party.glfw-MinSizeRel-143963caef928bcb7152.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "third-party/glfw",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "third-party/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third-party.glfw.src-MinSizeRel-08abad9f933d4320c370.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 5,
+					"source" : "third-party/glfw/src",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "src/gl",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.gl-MinSizeRel-f00927d13bc0b54ebbdd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "src/gl",
+					"targetIndexes" : 
+					[
+						26,
+						47
+					]
+				},
+				{
+					"build" : "examples",
+					"childIndexes" : 
+					[
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples-MinSizeRel-2e8964349ffea94e1580.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples"
+				},
+				{
+					"build" : "examples/hello-realsense",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.hello-realsense-MinSizeRel-1fb8b94cd133d955c612.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 7,
+					"source" : "examples/hello-realsense",
+					"targetIndexes" : 
+					[
+						30,
+						66
+					]
+				},
+				{
+					"build" : "examples/software-device",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.software-device-MinSizeRel-606c0f345bf9c66d1646.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 8,
+					"source" : "examples/software-device",
+					"targetIndexes" : 
+					[
+						33,
+						77
+					]
+				},
+				{
+					"build" : "examples/capture",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.capture-MinSizeRel-3a70286a08077c95af78.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 9,
+					"source" : "examples/capture",
+					"targetIndexes" : 
+					[
+						36,
+						53
+					]
+				},
+				{
+					"build" : "examples/callback",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.callback-MinSizeRel-96df4fbaf42c2c7c197a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 10,
+					"source" : "examples/callback",
+					"targetIndexes" : 
+					[
+						39,
+						52
+					]
+				},
+				{
+					"build" : "examples/save-to-disk",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.save-to-disk-MinSizeRel-67da5fb9ebadd22275ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 11,
+					"source" : "examples/save-to-disk",
+					"targetIndexes" : 
+					[
+						4,
+						75
+					]
+				},
+				{
+					"build" : "examples/multicam",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.multicam-MinSizeRel-b6b2ff37cbb6379de5a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 12,
+					"source" : "examples/multicam",
+					"targetIndexes" : 
+					[
+						14,
+						69
+					]
+				},
+				{
+					"build" : "examples/pointcloud",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.pointcloud-MinSizeRel-71677b8701912fd319d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 13,
+					"source" : "examples/pointcloud",
+					"targetIndexes" : 
+					[
+						18,
+						70
+					]
+				},
+				{
+					"build" : "examples/align",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.align-MinSizeRel-2bc3982bedf610c9c7d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 14,
+					"source" : "examples/align",
+					"targetIndexes" : 
+					[
+						25,
+						48
+					]
+				},
+				{
+					"build" : "examples/align-gl",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.align-gl-MinSizeRel-c648b90660b97777acbb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 15,
+					"source" : "examples/align-gl",
+					"targetIndexes" : 
+					[
+						35,
+						50
+					]
+				},
+				{
+					"build" : "examples/align-advanced",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.align-advanced-MinSizeRel-bc2f04bab9f75af1ec37.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 16,
+					"source" : "examples/align-advanced",
+					"targetIndexes" : 
+					[
+						11,
+						49
+					]
+				},
+				{
+					"build" : "examples/sensor-control",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.sensor-control-MinSizeRel-3237e7c10e686c67a793.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 17,
+					"source" : "examples/sensor-control",
+					"targetIndexes" : 
+					[
+						29,
+						76
+					]
+				},
+				{
+					"build" : "examples/measure",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.measure-MinSizeRel-6eea9198ffb38290a391.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 18,
+					"source" : "examples/measure",
+					"targetIndexes" : 
+					[
+						23,
+						67
+					]
+				},
+				{
+					"build" : "examples/C/depth",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.C.depth-MinSizeRel-d5cb3aef9972c448a9d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 19,
+					"source" : "examples/C/depth",
+					"targetIndexes" : 
+					[
+						1,
+						57
+					]
+				},
+				{
+					"build" : "examples/C/color",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.C.color-MinSizeRel-349c3b3e8b11dae45158.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 20,
+					"source" : "examples/C/color",
+					"targetIndexes" : 
+					[
+						17,
+						54
+					]
+				},
+				{
+					"build" : "examples/C/distance",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.C.distance-MinSizeRel-4e2b4c062968b97cc498.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 21,
+					"source" : "examples/C/distance",
+					"targetIndexes" : 
+					[
+						38,
+						59
+					]
+				},
+				{
+					"build" : "examples/post-processing",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.post-processing-MinSizeRel-f416e89d50ebf075732b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 22,
+					"source" : "examples/post-processing",
+					"targetIndexes" : 
+					[
+						27,
+						71
+					]
+				},
+				{
+					"build" : "examples/record-playback",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.record-playback-MinSizeRel-50cb4adc71c8717c7114.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 23,
+					"source" : "examples/record-playback",
+					"targetIndexes" : 
+					[
+						20,
+						73
+					]
+				},
+				{
+					"build" : "examples/motion",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.motion-MinSizeRel-516c8cd70e8885f33684.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 24,
+					"source" : "examples/motion",
+					"targetIndexes" : 
+					[
+						16,
+						68
+					]
+				},
+				{
+					"build" : "examples/gl",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.gl-MinSizeRel-50d1b6042c7cddc54453.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 25,
+					"source" : "examples/gl",
+					"targetIndexes" : 
+					[
+						8,
+						64
+					]
+				},
+				{
+					"build" : "examples/hdr",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.hdr-MinSizeRel-25d38ffb84d25c3a7c1f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 26,
+					"source" : "examples/hdr",
+					"targetIndexes" : 
+					[
+						0,
+						65
+					]
+				},
+				{
+					"build" : "tools",
+					"childIndexes" : 
+					[
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools-MinSizeRel-510b7838458e622ae347.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tools"
+				},
+				{
+					"build" : "tools/convert",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.convert-MinSizeRel-0ed6763db97f87424d96.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 27,
+					"source" : "tools/convert",
+					"targetIndexes" : 
+					[
+						37,
+						55
+					]
+				},
+				{
+					"build" : "tools/enumerate-devices",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.enumerate-devices-MinSizeRel-2715f4c9ebaa99f3ed6a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 28,
+					"source" : "tools/enumerate-devices",
+					"targetIndexes" : 
+					[
+						34,
+						61
+					]
+				},
+				{
+					"build" : "tools/fw-logger",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.fw-logger-MinSizeRel-7ed35a625911cc7e6bea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 29,
+					"source" : "tools/fw-logger",
+					"targetIndexes" : 
+					[
+						31,
+						62
+					]
+				},
+				{
+					"build" : "tools/terminal",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.terminal-MinSizeRel-5dcf82d23190086d73b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 30,
+					"source" : "tools/terminal",
+					"targetIndexes" : 
+					[
+						28,
+						78
+					]
+				},
+				{
+					"build" : "tools/recorder",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.recorder-MinSizeRel-dc919adf0b16fbcbf271.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 31,
+					"source" : "tools/recorder",
+					"targetIndexes" : 
+					[
+						24,
+						72
+					]
+				},
+				{
+					"build" : "tools/fw-update",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.fw-update-MinSizeRel-8a504a909a13a5085846.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 32,
+					"source" : "tools/fw-update",
+					"targetIndexes" : 
+					[
+						22,
+						63
+					]
+				},
+				{
+					"build" : "tools/embed",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.embed-MinSizeRel-92f1b716eefc49fa0169.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 33,
+					"source" : "tools/embed",
+					"targetIndexes" : 
+					[
+						13,
+						60
+					]
+				},
+				{
+					"build" : "tools/data-collect",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.data-collect-MinSizeRel-b9c98211ab247daac112.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 34,
+					"source" : "tools/data-collect",
+					"targetIndexes" : 
+					[
+						10,
+						56
+					]
+				},
+				{
+					"build" : "tools/realsense-viewer",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.realsense-viewer-MinSizeRel-22d76bdc4b89431d05cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 35,
+					"source" : "tools/realsense-viewer",
+					"targetIndexes" : 
+					[
+						7,
+						45
+					]
+				},
+				{
+					"build" : "tools/depth-quality",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.depth-quality-MinSizeRel-313549bd053980ebc715.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 36,
+					"source" : "tools/depth-quality",
+					"targetIndexes" : 
+					[
+						6,
+						58
+					]
+				},
+				{
+					"build" : "tools/rosbag-inspector",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.rosbag-inspector-MinSizeRel-5b52254b9b69e38ac019.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 37,
+					"source" : "tools/rosbag-inspector",
+					"targetIndexes" : 
+					[
+						3,
+						74
+					]
+				},
+				{
+					"build" : "tools/benchmark",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.benchmark-MinSizeRel-bcfaf753ba17a0be56db.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 38,
+					"source" : "tools/benchmark",
+					"targetIndexes" : 
+					[
+						2,
+						51
+					]
+				},
+				{
+					"build" : "common/fw",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-common.fw-MinSizeRel-b8ded43b1f80d7dad345.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 39,
+					"source" : "common/fw",
+					"targetIndexes" : 
+					[
+						32,
+						41
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						4,
+						9,
+						30
+					],
+					"name" : "realsense2",
+					"targetIndexes" : 
+					[
+						5,
+						40,
+						43,
+						46,
+						80
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "rsutils",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12,
+						79
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "realsense-file",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15,
+						44
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "RealsenseWrappers",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6,
+						7
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						21,
+						42
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "realsense2-gl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26,
+						47
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "RealsenseExamplesHelloRealSense",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						30,
+						66
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "RealsenseExamplesSoftwareDevice",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						33,
+						77
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "RealsenseExamplesCapture",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						36,
+						53
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "rs-callback",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						39,
+						52
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "RealsenseExamplesSaveToDisk",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						75
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "RealsenseExamplesMulticam",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14,
+						69
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "RealsenseExamplesPointcloud",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						18,
+						70
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "RealsenseExamplesAlign",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						25,
+						48
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "RealsenseExamplesAlignGl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						35,
+						50
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "RealsenseExamplesAlignAdvanced",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						49
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "RealsenseExamplesSensorControl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						29,
+						76
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "RealsenseExamplesMeasure",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						23,
+						67
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "RealsenseExamples-Depth",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						57
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "RealsenseExamples-Color",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17,
+						54
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "RealsenseExamples-Distance",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						38,
+						59
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "RealsenseExamplesPost-Processing",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						27,
+						71
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "RealsenseExamplesRecord-Playback",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						20,
+						73
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "RealsenseExamplesMotion",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16,
+						68
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						28
+					],
+					"name" : "RealsenseExamplesGL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						64
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29
+					],
+					"name" : "RealsenseExamplesHdr",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						65
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						31
+					],
+					"name" : "RealsenseToolsConvert",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						37,
+						55
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						32
+					],
+					"name" : "RealsenseExamplesEnumerateDevices",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						34,
+						61
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						33
+					],
+					"name" : "RealsenseToolsFirmwareLogger",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						31,
+						62
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						34
+					],
+					"name" : "RealsenseToolsTerminal",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						28,
+						78
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						35
+					],
+					"name" : "RealsenseToolsRecorder",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						24,
+						72
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						36
+					],
+					"name" : "rs-fw-update",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						22,
+						63
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						37
+					],
+					"name" : "RealsenseToolsEmbed",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13,
+						60
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						38
+					],
+					"name" : "RealsenseToolsDataCollect",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						56
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						39
+					],
+					"name" : "realsense-viewer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						45
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						40
+					],
+					"name" : "rs-depth-quality",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						58
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						41
+					],
+					"name" : "RealsenseToolsRosbagInspector",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						74
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						42
+					],
+					"name" : "RealsenseToolsBenchmark",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						51
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						43
+					],
+					"name" : "fw",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						32,
+						41
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 29,
+					"id" : "ALL_BUILD::@788cfeadc1f705a053e6",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-6ea2a9bf3992840f76d8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 26
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "ALL_BUILD::@60ec41cd3356a01e436a",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-b547dd643a77c9a45d3f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "ALL_BUILD::@fb290bedab6065f3abb9",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-4993ea97a0fcb94ac89f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 38
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "ALL_BUILD::@4dbf159e62333efe31a7",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f2c0dd85253f77d93f66.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 37
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ALL_BUILD::@332d026fcd218f050a85",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-19b26e1f73403fee1e8f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-2f8cf960ae22adf7e782.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "ALL_BUILD::@29993dda089901843c5d",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-e8b4cd8628ee1f61fa73.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 36
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "ALL_BUILD::@d472265b2bd8c49a9493",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-4b00ff08015a51d9759c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 35
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "ALL_BUILD::@98404075b3d096f3bc95",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-8ac3b18382de5afa4639.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 25
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@709e9adacab21fc0b8f0",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-abab7cb3c4915d169fd0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "ALL_BUILD::@fbbb7f60fd3c2877545b",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f07af41d50ef006758f2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 34
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "ALL_BUILD::@0ee548b7154f90470759",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-1491b3647666d5336585.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@7bdc9af287c8f56d444a",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-25e8883fe1e390eee2f2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "ALL_BUILD::@fe80b92fa8f78b4fbd4f",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-1f4550f6e35868549169.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 33
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@f6e4eccab19ca0f7f728",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-c3da0f12f75008f5a89b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@5533e881b3d6781fcfa6",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f039ced76f0268227246.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "ALL_BUILD::@719a480b5ee438dd903b",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-425b8fc4d192fb5b9e46.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "ALL_BUILD::@8b6a64de10d3ab074731",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-662513de21d50fd34688.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "ALL_BUILD::@c363e20b820f6e481e09",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-38e192d98c66af620955.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@c32b5851c214a76309b8",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-f7989ccd68ae0ecf3b0b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "ALL_BUILD::@5edb153cf5464e8ca0b1",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-c2e5942df47e1030ab4a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@556c92c420f14367ed0b",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-22491bb8afbbc2f3263e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "ALL_BUILD::@c7d1c6993d662bd91ed9",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-ea422fd608a567cf135b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 32
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "ALL_BUILD::@c720b294b4e0b9de0b96",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-539ac0145a44e76e33ce.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "ALL_BUILD::@390efd627d107a64a8e8",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-4976ef305901fb041570.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 31
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ALL_BUILD::@0ff3661e43e79869cb71",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-b0428392b37a251e3628.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@1b4b631fec04592731c1",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-ffa6b0a8861ce27e8069.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "ALL_BUILD::@cecf4109d5ef1dca7571",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-26dfa800b3a6d14d9083.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "ALL_BUILD::@38b85bea787b1fb1aef3",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-771aad3b601a00396ef4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 30
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "ALL_BUILD::@dc9e7c4e39455c16e7f0",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-febef05d6d36a0ed5c37.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@905485064bff9c5a6dfb",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-7b208c7f256dd2958714.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "ALL_BUILD::@251045b91ffa45f93696",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-8b29f9de2ffe558ba8d3.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 29
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "ALL_BUILD::@b8a021e3e9916457c947",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-9692e8bea361499d97b7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 39
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@2ebb7eaee9be233b7d22",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-8f8b1bdb3818cc410c08.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "ALL_BUILD::@91e731cc46fbc6af252e",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-5a497f98210ca673567b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 28
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "ALL_BUILD::@6b2bce0f009ec9457c2d",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-998e6ea9a3682582694c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@14516b3763a59b9dfad2",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-c7adc25af5d7af6b5854.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "ALL_BUILD::@bc4a94ada3a12ffc20ba",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d30b3a83f6eedc98a8eb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 27
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "ALL_BUILD::@a12fe937c0fd8a1caa57",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-b184ebea5d9ca7e92a38.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ALL_BUILD::@b2f5e1e0a78437e266c9",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-a37c85762e142aeb5f28.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-48946312000aa28b5844.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "fw::@b8a021e3e9916457c947",
+					"jsonFile" : "target-fw-MinSizeRel-ea510e083949080cf3db.json",
+					"name" : "fw",
+					"projectIndex" : 39
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "glfw::@281570e8f3ee925e5575",
+					"jsonFile" : "target-glfw-MinSizeRel-cb573aea183e37f28fce.json",
+					"name" : "glfw",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libcurl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libcurl-MinSizeRel-9e425d699ada04ee5254.json",
+					"name" : "libcurl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "realsense-file::@5533e881b3d6781fcfa6",
+					"jsonFile" : "target-realsense-file-MinSizeRel-027ab92f7f67ce6e3a11.json",
+					"name" : "realsense-file",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "realsense-viewer::@d472265b2bd8c49a9493",
+					"jsonFile" : "target-realsense-viewer-MinSizeRel-897f9f8d13afc539fd08.json",
+					"name" : "realsense-viewer",
+					"projectIndex" : 35
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "realsense2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realsense2-MinSizeRel-f551bb16ebb5d8b55881.json",
+					"name" : "realsense2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "realsense2-gl::@1b4b631fec04592731c1",
+					"jsonFile" : "target-realsense2-gl-MinSizeRel-a22cc8c31def9c7087f2.json",
+					"name" : "realsense2-gl",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "rs-align::@0ff3661e43e79869cb71",
+					"jsonFile" : "target-rs-align-MinSizeRel-60b293dcf6333406e014.json",
+					"name" : "rs-align",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "rs-align-advanced::@0ee548b7154f90470759",
+					"jsonFile" : "target-rs-align-advanced-MinSizeRel-10d4e05ef7594ddbc18b.json",
+					"name" : "rs-align-advanced",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "rs-align-gl::@6b2bce0f009ec9457c2d",
+					"jsonFile" : "target-rs-align-gl-MinSizeRel-9f8d96fb395315f409bd.json",
+					"name" : "rs-align-gl",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "rs-benchmark::@fb290bedab6065f3abb9",
+					"jsonFile" : "target-rs-benchmark-MinSizeRel-bc5c20c05d16223c1c5e.json",
+					"name" : "rs-benchmark",
+					"projectIndex" : 38
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "rs-callback::@b2f5e1e0a78437e266c9",
+					"jsonFile" : "target-rs-callback-MinSizeRel-ef2a53af115ddafddb16.json",
+					"name" : "rs-callback",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "rs-capture::@14516b3763a59b9dfad2",
+					"jsonFile" : "target-rs-capture-MinSizeRel-c4ded220383429d4a3bf.json",
+					"name" : "rs-capture",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "rs-color::@8b6a64de10d3ab074731",
+					"jsonFile" : "target-rs-color-MinSizeRel-0edd4dd0a50fab53b3bc.json",
+					"name" : "rs-color",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "rs-convert::@bc4a94ada3a12ffc20ba",
+					"jsonFile" : "target-rs-convert-MinSizeRel-3873dd102b670bc9a542.json",
+					"name" : "rs-convert",
+					"projectIndex" : 27
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "rs-data-collect::@fbbb7f60fd3c2877545b",
+					"jsonFile" : "target-rs-data-collect-MinSizeRel-b412c8651d11cc4c4908.json",
+					"name" : "rs-data-collect",
+					"projectIndex" : 34
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "rs-depth::@60ec41cd3356a01e436a",
+					"jsonFile" : "target-rs-depth-MinSizeRel-29ea6b3794b617ae2b6b.json",
+					"name" : "rs-depth",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "rs-depth-quality::@29993dda089901843c5d",
+					"jsonFile" : "target-rs-depth-quality-MinSizeRel-9ee2397d397d4d48cf52.json",
+					"name" : "rs-depth-quality",
+					"projectIndex" : 36
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "rs-distance::@a12fe937c0fd8a1caa57",
+					"jsonFile" : "target-rs-distance-MinSizeRel-1ecfa95d9ff828fb249a.json",
+					"name" : "rs-distance",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "rs-embed::@fe80b92fa8f78b4fbd4f",
+					"jsonFile" : "target-rs-embed-MinSizeRel-34da29675abc5390a833.json",
+					"name" : "rs-embed",
+					"projectIndex" : 33
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "rs-enumerate-devices::@91e731cc46fbc6af252e",
+					"jsonFile" : "target-rs-enumerate-devices-MinSizeRel-be90d973e04addda2086.json",
+					"name" : "rs-enumerate-devices",
+					"projectIndex" : 28
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "rs-fw-logger::@251045b91ffa45f93696",
+					"jsonFile" : "target-rs-fw-logger-MinSizeRel-d94df0f19956a9da1841.json",
+					"name" : "rs-fw-logger",
+					"projectIndex" : 29
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "rs-fw-update::@c7d1c6993d662bd91ed9",
+					"jsonFile" : "target-rs-fw-update-MinSizeRel-955e3a354f1eaf6a8808.json",
+					"name" : "rs-fw-update",
+					"projectIndex" : 32
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "rs-gl::@98404075b3d096f3bc95",
+					"jsonFile" : "target-rs-gl-MinSizeRel-cbb050f460545197cc34.json",
+					"name" : "rs-gl",
+					"projectIndex" : 25
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "rs-hdr::@788cfeadc1f705a053e6",
+					"jsonFile" : "target-rs-hdr-MinSizeRel-a15b780a485bdd877039.json",
+					"name" : "rs-hdr",
+					"projectIndex" : 26
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "rs-hello-realsense::@905485064bff9c5a6dfb",
+					"jsonFile" : "target-rs-hello-realsense-MinSizeRel-55e728e21773c60afca8.json",
+					"name" : "rs-hello-realsense",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "rs-measure::@c720b294b4e0b9de0b96",
+					"jsonFile" : "target-rs-measure-MinSizeRel-16c50cf04db2cadda9f1.json",
+					"name" : "rs-measure",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "rs-motion::@719a480b5ee438dd903b",
+					"jsonFile" : "target-rs-motion-MinSizeRel-4f02e4f722a2bcd43fb2.json",
+					"name" : "rs-motion",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "rs-multicam::@f6e4eccab19ca0f7f728",
+					"jsonFile" : "target-rs-multicam-MinSizeRel-ed6fbaa49ab3f3224eba.json",
+					"name" : "rs-multicam",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "rs-pointcloud::@c363e20b820f6e481e09",
+					"jsonFile" : "target-rs-pointcloud-MinSizeRel-e24c2671adb84081b7b7.json",
+					"name" : "rs-pointcloud",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "rs-post-processing::@cecf4109d5ef1dca7571",
+					"jsonFile" : "target-rs-post-processing-MinSizeRel-c0c9514626687b12abba.json",
+					"name" : "rs-post-processing",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "rs-record::@390efd627d107a64a8e8",
+					"jsonFile" : "target-rs-record-MinSizeRel-859633ac6131cc87b9cb.json",
+					"name" : "rs-record",
+					"projectIndex" : 31
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "rs-record-playback::@5edb153cf5464e8ca0b1",
+					"jsonFile" : "target-rs-record-playback-MinSizeRel-e09680b40e0487dfbb54.json",
+					"name" : "rs-record-playback",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "rs-rosbag-inspector::@4dbf159e62333efe31a7",
+					"jsonFile" : "target-rs-rosbag-inspector-MinSizeRel-25d0ff3d9c36916443b0.json",
+					"name" : "rs-rosbag-inspector",
+					"projectIndex" : 37
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "rs-save-to-disk::@332d026fcd218f050a85",
+					"jsonFile" : "target-rs-save-to-disk-MinSizeRel-a6c5435b9585ca028d8b.json",
+					"name" : "rs-save-to-disk",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "rs-sensor-control::@dc9e7c4e39455c16e7f0",
+					"jsonFile" : "target-rs-sensor-control-MinSizeRel-f0ac4d49eeb5c7bb36c5.json",
+					"name" : "rs-sensor-control",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "rs-software-device::@2ebb7eaee9be233b7d22",
+					"jsonFile" : "target-rs-software-device-MinSizeRel-e41586fb9f02383ad973.json",
+					"name" : "rs-software-device",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "rs-terminal::@38b85bea787b1fb1aef3",
+					"jsonFile" : "target-rs-terminal-MinSizeRel-cfd3cab878261efb5517.json",
+					"name" : "rs-terminal",
+					"projectIndex" : 30
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rsutils::@7bdc9af287c8f56d444a",
+					"jsonFile" : "target-rsutils-MinSizeRel-b09e4ad2a4fc07163360.json",
+					"name" : "rsutils",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-MinSizeRel-682ca695890d38e89634.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9,
+						30,
+						43
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-78b6c43ad10ba738346d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						40,
+						43,
+						46,
+						80
+					]
+				},
+				{
+					"build" : "third-party/json/build",
+					"jsonFile" : "directory-third-party.json.build-RelWithDebInfo-7673bc6f087c6853dc1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/email/Documents/Work/build/third-party/json",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "third-party/rsutils",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third-party.rsutils-RelWithDebInfo-015e909b038a54a61eb5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "third-party/rsutils",
+					"targetIndexes" : 
+					[
+						12,
+						79
+					]
+				},
+				{
+					"build" : "third-party/realsense-file",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third-party.realsense-file-RelWithDebInfo-c06af8c96023c736d1f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "third-party/realsense-file",
+					"targetIndexes" : 
+					[
+						15,
+						44
+					]
+				},
+				{
+					"build" : "third-party/tclap",
+					"jsonFile" : "directory-third-party.tclap-RelWithDebInfo-f78907a4ec541ab52c09.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "third-party/tclap"
+				},
+				{
+					"build" : "wrappers",
+					"jsonFile" : "directory-wrappers-RelWithDebInfo-632f8b16b7c71f89b3f6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "wrappers",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "third-party/glfw",
+					"childIndexes" : 
+					[
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third-party.glfw-RelWithDebInfo-143963caef928bcb7152.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "third-party/glfw",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "third-party/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-third-party.glfw.src-RelWithDebInfo-2a93c3c8e7eef7c829f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 5,
+					"source" : "third-party/glfw/src",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "src/gl",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.gl-RelWithDebInfo-64067352d70c6991b26e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "src/gl",
+					"targetIndexes" : 
+					[
+						26,
+						47
+					]
+				},
+				{
+					"build" : "examples",
+					"childIndexes" : 
+					[
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples-RelWithDebInfo-2e8964349ffea94e1580.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples"
+				},
+				{
+					"build" : "examples/hello-realsense",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.hello-realsense-RelWithDebInfo-ca8d86e9e401075ec495.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 7,
+					"source" : "examples/hello-realsense",
+					"targetIndexes" : 
+					[
+						30,
+						66
+					]
+				},
+				{
+					"build" : "examples/software-device",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.software-device-RelWithDebInfo-89a3b26a2a7dd9d4de9c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 8,
+					"source" : "examples/software-device",
+					"targetIndexes" : 
+					[
+						33,
+						77
+					]
+				},
+				{
+					"build" : "examples/capture",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.capture-RelWithDebInfo-071e24b92018908a1787.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 9,
+					"source" : "examples/capture",
+					"targetIndexes" : 
+					[
+						36,
+						53
+					]
+				},
+				{
+					"build" : "examples/callback",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.callback-RelWithDebInfo-1cfae1fe001a6ccc58bd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 10,
+					"source" : "examples/callback",
+					"targetIndexes" : 
+					[
+						39,
+						52
+					]
+				},
+				{
+					"build" : "examples/save-to-disk",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.save-to-disk-RelWithDebInfo-749f6c4b561f8aef6c9e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 11,
+					"source" : "examples/save-to-disk",
+					"targetIndexes" : 
+					[
+						4,
+						75
+					]
+				},
+				{
+					"build" : "examples/multicam",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.multicam-RelWithDebInfo-4c396f47245f672cd356.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 12,
+					"source" : "examples/multicam",
+					"targetIndexes" : 
+					[
+						14,
+						69
+					]
+				},
+				{
+					"build" : "examples/pointcloud",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.pointcloud-RelWithDebInfo-60e5bc7d11c95039c011.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 13,
+					"source" : "examples/pointcloud",
+					"targetIndexes" : 
+					[
+						18,
+						70
+					]
+				},
+				{
+					"build" : "examples/align",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.align-RelWithDebInfo-5dcb72cefcae7bdc7a38.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 14,
+					"source" : "examples/align",
+					"targetIndexes" : 
+					[
+						25,
+						48
+					]
+				},
+				{
+					"build" : "examples/align-gl",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.align-gl-RelWithDebInfo-8a0620ffca541b697878.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 15,
+					"source" : "examples/align-gl",
+					"targetIndexes" : 
+					[
+						35,
+						50
+					]
+				},
+				{
+					"build" : "examples/align-advanced",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.align-advanced-RelWithDebInfo-c1c63094d3a7e16e5515.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 16,
+					"source" : "examples/align-advanced",
+					"targetIndexes" : 
+					[
+						11,
+						49
+					]
+				},
+				{
+					"build" : "examples/sensor-control",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.sensor-control-RelWithDebInfo-b862e7eb7f4e9898b3f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 17,
+					"source" : "examples/sensor-control",
+					"targetIndexes" : 
+					[
+						29,
+						76
+					]
+				},
+				{
+					"build" : "examples/measure",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.measure-RelWithDebInfo-72d4a4b9ad6c8ff815e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 18,
+					"source" : "examples/measure",
+					"targetIndexes" : 
+					[
+						23,
+						67
+					]
+				},
+				{
+					"build" : "examples/C/depth",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.C.depth-RelWithDebInfo-44bca6d40d0c9089c7e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 19,
+					"source" : "examples/C/depth",
+					"targetIndexes" : 
+					[
+						1,
+						57
+					]
+				},
+				{
+					"build" : "examples/C/color",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.C.color-RelWithDebInfo-393e0acf09d5d725ade8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 20,
+					"source" : "examples/C/color",
+					"targetIndexes" : 
+					[
+						17,
+						54
+					]
+				},
+				{
+					"build" : "examples/C/distance",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.C.distance-RelWithDebInfo-5b1de9eccdd1862068f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 21,
+					"source" : "examples/C/distance",
+					"targetIndexes" : 
+					[
+						38,
+						59
+					]
+				},
+				{
+					"build" : "examples/post-processing",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.post-processing-RelWithDebInfo-6200c59686ab6dface65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 22,
+					"source" : "examples/post-processing",
+					"targetIndexes" : 
+					[
+						27,
+						71
+					]
+				},
+				{
+					"build" : "examples/record-playback",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.record-playback-RelWithDebInfo-402eed8cdebbd814496b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 23,
+					"source" : "examples/record-playback",
+					"targetIndexes" : 
+					[
+						20,
+						73
+					]
+				},
+				{
+					"build" : "examples/motion",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.motion-RelWithDebInfo-c302ad0529bd1a6c1b84.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 24,
+					"source" : "examples/motion",
+					"targetIndexes" : 
+					[
+						16,
+						68
+					]
+				},
+				{
+					"build" : "examples/gl",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.gl-RelWithDebInfo-9dc06bf5622aba84835a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 25,
+					"source" : "examples/gl",
+					"targetIndexes" : 
+					[
+						8,
+						64
+					]
+				},
+				{
+					"build" : "examples/hdr",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples.hdr-RelWithDebInfo-2e6e8ad6a610b6af1d76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 26,
+					"source" : "examples/hdr",
+					"targetIndexes" : 
+					[
+						0,
+						65
+					]
+				},
+				{
+					"build" : "tools",
+					"childIndexes" : 
+					[
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools-RelWithDebInfo-510b7838458e622ae347.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tools"
+				},
+				{
+					"build" : "tools/convert",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.convert-RelWithDebInfo-e7667a8c3215db21d48c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 27,
+					"source" : "tools/convert",
+					"targetIndexes" : 
+					[
+						37,
+						55
+					]
+				},
+				{
+					"build" : "tools/enumerate-devices",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.enumerate-devices-RelWithDebInfo-64f7931a5270f11753c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 28,
+					"source" : "tools/enumerate-devices",
+					"targetIndexes" : 
+					[
+						34,
+						61
+					]
+				},
+				{
+					"build" : "tools/fw-logger",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.fw-logger-RelWithDebInfo-7bb5a76cd1d7e031ce1e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 29,
+					"source" : "tools/fw-logger",
+					"targetIndexes" : 
+					[
+						31,
+						62
+					]
+				},
+				{
+					"build" : "tools/terminal",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.terminal-RelWithDebInfo-2b1e9beab421aea484f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 30,
+					"source" : "tools/terminal",
+					"targetIndexes" : 
+					[
+						28,
+						78
+					]
+				},
+				{
+					"build" : "tools/recorder",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.recorder-RelWithDebInfo-1a221c4aeb7d38d96376.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 31,
+					"source" : "tools/recorder",
+					"targetIndexes" : 
+					[
+						24,
+						72
+					]
+				},
+				{
+					"build" : "tools/fw-update",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.fw-update-RelWithDebInfo-1cd78dac5645f32255c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 32,
+					"source" : "tools/fw-update",
+					"targetIndexes" : 
+					[
+						22,
+						63
+					]
+				},
+				{
+					"build" : "tools/embed",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.embed-RelWithDebInfo-1d7e26568138e3b9dbca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 33,
+					"source" : "tools/embed",
+					"targetIndexes" : 
+					[
+						13,
+						60
+					]
+				},
+				{
+					"build" : "tools/data-collect",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.data-collect-RelWithDebInfo-42799e658373470e2c7e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 34,
+					"source" : "tools/data-collect",
+					"targetIndexes" : 
+					[
+						10,
+						56
+					]
+				},
+				{
+					"build" : "tools/realsense-viewer",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.realsense-viewer-RelWithDebInfo-04f319243237250b5970.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 35,
+					"source" : "tools/realsense-viewer",
+					"targetIndexes" : 
+					[
+						7,
+						45
+					]
+				},
+				{
+					"build" : "tools/depth-quality",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.depth-quality-RelWithDebInfo-58e33858f8f93d60dd11.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 36,
+					"source" : "tools/depth-quality",
+					"targetIndexes" : 
+					[
+						6,
+						58
+					]
+				},
+				{
+					"build" : "tools/rosbag-inspector",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.rosbag-inspector-RelWithDebInfo-05ede007cbe775099529.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 37,
+					"source" : "tools/rosbag-inspector",
+					"targetIndexes" : 
+					[
+						3,
+						74
+					]
+				},
+				{
+					"build" : "tools/benchmark",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-tools.benchmark-RelWithDebInfo-0dbbf8a64523d0923538.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 30,
+					"projectIndex" : 38,
+					"source" : "tools/benchmark",
+					"targetIndexes" : 
+					[
+						2,
+						51
+					]
+				},
+				{
+					"build" : "common/fw",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-common.fw-RelWithDebInfo-fa6ad4327bd1a1add36a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 39,
+					"source" : "common/fw",
+					"targetIndexes" : 
+					[
+						32,
+						41
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						4,
+						9,
+						30
+					],
+					"name" : "realsense2",
+					"targetIndexes" : 
+					[
+						5,
+						40,
+						43,
+						46,
+						80
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "rsutils",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12,
+						79
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "realsense-file",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15,
+						44
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "RealsenseWrappers",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6,
+						7
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						21,
+						42
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "realsense2-gl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26,
+						47
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "RealsenseExamplesHelloRealSense",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						30,
+						66
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "RealsenseExamplesSoftwareDevice",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						33,
+						77
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "RealsenseExamplesCapture",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						36,
+						53
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "rs-callback",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						39,
+						52
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "RealsenseExamplesSaveToDisk",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						75
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "RealsenseExamplesMulticam",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14,
+						69
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "RealsenseExamplesPointcloud",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						18,
+						70
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "RealsenseExamplesAlign",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						25,
+						48
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "RealsenseExamplesAlignGl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						35,
+						50
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "RealsenseExamplesAlignAdvanced",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11,
+						49
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "RealsenseExamplesSensorControl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						29,
+						76
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "RealsenseExamplesMeasure",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						23,
+						67
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "RealsenseExamples-Depth",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						57
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "RealsenseExamples-Color",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17,
+						54
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "RealsenseExamples-Distance",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						38,
+						59
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "RealsenseExamplesPost-Processing",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						27,
+						71
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "RealsenseExamplesRecord-Playback",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						20,
+						73
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "RealsenseExamplesMotion",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16,
+						68
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						28
+					],
+					"name" : "RealsenseExamplesGL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						64
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29
+					],
+					"name" : "RealsenseExamplesHdr",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						65
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						31
+					],
+					"name" : "RealsenseToolsConvert",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						37,
+						55
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						32
+					],
+					"name" : "RealsenseExamplesEnumerateDevices",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						34,
+						61
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						33
+					],
+					"name" : "RealsenseToolsFirmwareLogger",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						31,
+						62
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						34
+					],
+					"name" : "RealsenseToolsTerminal",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						28,
+						78
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						35
+					],
+					"name" : "RealsenseToolsRecorder",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						24,
+						72
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						36
+					],
+					"name" : "rs-fw-update",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						22,
+						63
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						37
+					],
+					"name" : "RealsenseToolsEmbed",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13,
+						60
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						38
+					],
+					"name" : "RealsenseToolsDataCollect",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10,
+						56
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						39
+					],
+					"name" : "realsense-viewer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7,
+						45
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						40
+					],
+					"name" : "rs-depth-quality",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6,
+						58
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						41
+					],
+					"name" : "RealsenseToolsRosbagInspector",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						74
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						42
+					],
+					"name" : "RealsenseToolsBenchmark",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						51
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						43
+					],
+					"name" : "fw",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						32,
+						41
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 29,
+					"id" : "ALL_BUILD::@788cfeadc1f705a053e6",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-6ea2a9bf3992840f76d8.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 26
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "ALL_BUILD::@60ec41cd3356a01e436a",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-b547dd643a77c9a45d3f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "ALL_BUILD::@fb290bedab6065f3abb9",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-4993ea97a0fcb94ac89f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 38
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "ALL_BUILD::@4dbf159e62333efe31a7",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f2c0dd85253f77d93f66.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 37
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "ALL_BUILD::@332d026fcd218f050a85",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-19b26e1f73403fee1e8f.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-2f8cf960ae22adf7e782.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "ALL_BUILD::@29993dda089901843c5d",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-e8b4cd8628ee1f61fa73.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 36
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "ALL_BUILD::@d472265b2bd8c49a9493",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-4b00ff08015a51d9759c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 35
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "ALL_BUILD::@98404075b3d096f3bc95",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-8ac3b18382de5afa4639.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 25
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@709e9adacab21fc0b8f0",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-abab7cb3c4915d169fd0.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "ALL_BUILD::@fbbb7f60fd3c2877545b",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f07af41d50ef006758f2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 34
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "ALL_BUILD::@0ee548b7154f90470759",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-1491b3647666d5336585.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@7bdc9af287c8f56d444a",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-25e8883fe1e390eee2f2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "ALL_BUILD::@fe80b92fa8f78b4fbd4f",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-1f4550f6e35868549169.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 33
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "ALL_BUILD::@f6e4eccab19ca0f7f728",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-c3da0f12f75008f5a89b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@5533e881b3d6781fcfa6",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f039ced76f0268227246.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "ALL_BUILD::@719a480b5ee438dd903b",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-425b8fc4d192fb5b9e46.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "ALL_BUILD::@8b6a64de10d3ab074731",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-662513de21d50fd34688.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "ALL_BUILD::@c363e20b820f6e481e09",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-38e192d98c66af620955.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ALL_BUILD::@c32b5851c214a76309b8",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-f7989ccd68ae0ecf3b0b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "ALL_BUILD::@5edb153cf5464e8ca0b1",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-c2e5942df47e1030ab4a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@556c92c420f14367ed0b",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-22491bb8afbbc2f3263e.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "ALL_BUILD::@c7d1c6993d662bd91ed9",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-ea422fd608a567cf135b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 32
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "ALL_BUILD::@c720b294b4e0b9de0b96",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-539ac0145a44e76e33ce.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "ALL_BUILD::@390efd627d107a64a8e8",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-4976ef305901fb041570.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 31
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ALL_BUILD::@0ff3661e43e79869cb71",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-b0428392b37a251e3628.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ALL_BUILD::@1b4b631fec04592731c1",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-ffa6b0a8861ce27e8069.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "ALL_BUILD::@cecf4109d5ef1dca7571",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-26dfa800b3a6d14d9083.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "ALL_BUILD::@38b85bea787b1fb1aef3",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-771aad3b601a00396ef4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 30
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "ALL_BUILD::@dc9e7c4e39455c16e7f0",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-febef05d6d36a0ed5c37.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ALL_BUILD::@905485064bff9c5a6dfb",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-7b208c7f256dd2958714.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "ALL_BUILD::@251045b91ffa45f93696",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-8b29f9de2ffe558ba8d3.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 29
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "ALL_BUILD::@b8a021e3e9916457c947",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-9692e8bea361499d97b7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 39
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ALL_BUILD::@2ebb7eaee9be233b7d22",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-8f8b1bdb3818cc410c08.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "ALL_BUILD::@91e731cc46fbc6af252e",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-5a497f98210ca673567b.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 28
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "ALL_BUILD::@6b2bce0f009ec9457c2d",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-998e6ea9a3682582694c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "ALL_BUILD::@14516b3763a59b9dfad2",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-c7adc25af5d7af6b5854.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "ALL_BUILD::@bc4a94ada3a12ffc20ba",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d30b3a83f6eedc98a8eb.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 27
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "ALL_BUILD::@a12fe937c0fd8a1caa57",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-b184ebea5d9ca7e92a38.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ALL_BUILD::@b2f5e1e0a78437e266c9",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-a37c85762e142aeb5f28.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-48946312000aa28b5844.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "fw::@b8a021e3e9916457c947",
+					"jsonFile" : "target-fw-RelWithDebInfo-26937c7409f43df6eb5e.json",
+					"name" : "fw",
+					"projectIndex" : 39
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "glfw::@281570e8f3ee925e5575",
+					"jsonFile" : "target-glfw-RelWithDebInfo-3838e6769e591473239a.json",
+					"name" : "glfw",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libcurl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libcurl-RelWithDebInfo-9e425d699ada04ee5254.json",
+					"name" : "libcurl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "realsense-file::@5533e881b3d6781fcfa6",
+					"jsonFile" : "target-realsense-file-RelWithDebInfo-9dd446b3a80949934bf5.json",
+					"name" : "realsense-file",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "realsense-viewer::@d472265b2bd8c49a9493",
+					"jsonFile" : "target-realsense-viewer-RelWithDebInfo-2f643fe34a2016ce85d9.json",
+					"name" : "realsense-viewer",
+					"projectIndex" : 35
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "realsense2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realsense2-RelWithDebInfo-182da5d135b83abd6efd.json",
+					"name" : "realsense2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "realsense2-gl::@1b4b631fec04592731c1",
+					"jsonFile" : "target-realsense2-gl-RelWithDebInfo-b984afb52c37b33b006a.json",
+					"name" : "realsense2-gl",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "rs-align::@0ff3661e43e79869cb71",
+					"jsonFile" : "target-rs-align-RelWithDebInfo-76b4676d479a8da6838c.json",
+					"name" : "rs-align",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "rs-align-advanced::@0ee548b7154f90470759",
+					"jsonFile" : "target-rs-align-advanced-RelWithDebInfo-271af19d2ad5636adb3c.json",
+					"name" : "rs-align-advanced",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "rs-align-gl::@6b2bce0f009ec9457c2d",
+					"jsonFile" : "target-rs-align-gl-RelWithDebInfo-f977ebabefa03c51d07e.json",
+					"name" : "rs-align-gl",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "rs-benchmark::@fb290bedab6065f3abb9",
+					"jsonFile" : "target-rs-benchmark-RelWithDebInfo-717efbf16795dcac055e.json",
+					"name" : "rs-benchmark",
+					"projectIndex" : 38
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "rs-callback::@b2f5e1e0a78437e266c9",
+					"jsonFile" : "target-rs-callback-RelWithDebInfo-0db99e358846f47de115.json",
+					"name" : "rs-callback",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "rs-capture::@14516b3763a59b9dfad2",
+					"jsonFile" : "target-rs-capture-RelWithDebInfo-b136db9ee28f84bb17d0.json",
+					"name" : "rs-capture",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "rs-color::@8b6a64de10d3ab074731",
+					"jsonFile" : "target-rs-color-RelWithDebInfo-08d6478e441c321379ba.json",
+					"name" : "rs-color",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "rs-convert::@bc4a94ada3a12ffc20ba",
+					"jsonFile" : "target-rs-convert-RelWithDebInfo-b1365e7cfd6a7a38c8f1.json",
+					"name" : "rs-convert",
+					"projectIndex" : 27
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "rs-data-collect::@fbbb7f60fd3c2877545b",
+					"jsonFile" : "target-rs-data-collect-RelWithDebInfo-75258176118c290ff787.json",
+					"name" : "rs-data-collect",
+					"projectIndex" : 34
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "rs-depth::@60ec41cd3356a01e436a",
+					"jsonFile" : "target-rs-depth-RelWithDebInfo-e0e6931087e1261b925b.json",
+					"name" : "rs-depth",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "rs-depth-quality::@29993dda089901843c5d",
+					"jsonFile" : "target-rs-depth-quality-RelWithDebInfo-6029f6183c1239612697.json",
+					"name" : "rs-depth-quality",
+					"projectIndex" : 36
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "rs-distance::@a12fe937c0fd8a1caa57",
+					"jsonFile" : "target-rs-distance-RelWithDebInfo-3422edbb965dc9007b26.json",
+					"name" : "rs-distance",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "rs-embed::@fe80b92fa8f78b4fbd4f",
+					"jsonFile" : "target-rs-embed-RelWithDebInfo-fe758930ca440ca936de.json",
+					"name" : "rs-embed",
+					"projectIndex" : 33
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "rs-enumerate-devices::@91e731cc46fbc6af252e",
+					"jsonFile" : "target-rs-enumerate-devices-RelWithDebInfo-f40eaa7a42aebc8bbb2f.json",
+					"name" : "rs-enumerate-devices",
+					"projectIndex" : 28
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "rs-fw-logger::@251045b91ffa45f93696",
+					"jsonFile" : "target-rs-fw-logger-RelWithDebInfo-44bebd93d0685f38ae38.json",
+					"name" : "rs-fw-logger",
+					"projectIndex" : 29
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "rs-fw-update::@c7d1c6993d662bd91ed9",
+					"jsonFile" : "target-rs-fw-update-RelWithDebInfo-1f20aaf962cab1b89dd4.json",
+					"name" : "rs-fw-update",
+					"projectIndex" : 32
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "rs-gl::@98404075b3d096f3bc95",
+					"jsonFile" : "target-rs-gl-RelWithDebInfo-52ea168f69bc845d89db.json",
+					"name" : "rs-gl",
+					"projectIndex" : 25
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "rs-hdr::@788cfeadc1f705a053e6",
+					"jsonFile" : "target-rs-hdr-RelWithDebInfo-675048c582faff90de00.json",
+					"name" : "rs-hdr",
+					"projectIndex" : 26
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "rs-hello-realsense::@905485064bff9c5a6dfb",
+					"jsonFile" : "target-rs-hello-realsense-RelWithDebInfo-664e3361e549d1e4e234.json",
+					"name" : "rs-hello-realsense",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "rs-measure::@c720b294b4e0b9de0b96",
+					"jsonFile" : "target-rs-measure-RelWithDebInfo-93860ba5208abc38a51f.json",
+					"name" : "rs-measure",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "rs-motion::@719a480b5ee438dd903b",
+					"jsonFile" : "target-rs-motion-RelWithDebInfo-448e4165fa50f933ea81.json",
+					"name" : "rs-motion",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "rs-multicam::@f6e4eccab19ca0f7f728",
+					"jsonFile" : "target-rs-multicam-RelWithDebInfo-5d40b2dc104460b82af1.json",
+					"name" : "rs-multicam",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "rs-pointcloud::@c363e20b820f6e481e09",
+					"jsonFile" : "target-rs-pointcloud-RelWithDebInfo-8bf35b9a4d959c6e3269.json",
+					"name" : "rs-pointcloud",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "rs-post-processing::@cecf4109d5ef1dca7571",
+					"jsonFile" : "target-rs-post-processing-RelWithDebInfo-b22beaaa3e5f127ca5bf.json",
+					"name" : "rs-post-processing",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "rs-record::@390efd627d107a64a8e8",
+					"jsonFile" : "target-rs-record-RelWithDebInfo-7be83f26d0bf8ea9bd76.json",
+					"name" : "rs-record",
+					"projectIndex" : 31
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "rs-record-playback::@5edb153cf5464e8ca0b1",
+					"jsonFile" : "target-rs-record-playback-RelWithDebInfo-d2d5c0b29e57d6f4a518.json",
+					"name" : "rs-record-playback",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "rs-rosbag-inspector::@4dbf159e62333efe31a7",
+					"jsonFile" : "target-rs-rosbag-inspector-RelWithDebInfo-99d2fdc16074152919e5.json",
+					"name" : "rs-rosbag-inspector",
+					"projectIndex" : 37
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "rs-save-to-disk::@332d026fcd218f050a85",
+					"jsonFile" : "target-rs-save-to-disk-RelWithDebInfo-6d1e1ea8be075fc9c133.json",
+					"name" : "rs-save-to-disk",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "rs-sensor-control::@dc9e7c4e39455c16e7f0",
+					"jsonFile" : "target-rs-sensor-control-RelWithDebInfo-7eac906a4e4e1ac496b1.json",
+					"name" : "rs-sensor-control",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "rs-software-device::@2ebb7eaee9be233b7d22",
+					"jsonFile" : "target-rs-software-device-RelWithDebInfo-4b71acd4fd51fa3971ae.json",
+					"name" : "rs-software-device",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "rs-terminal::@38b85bea787b1fb1aef3",
+					"jsonFile" : "target-rs-terminal-RelWithDebInfo-14c9a5ab3ae85774ff2c.json",
+					"name" : "rs-terminal",
+					"projectIndex" : 30
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rsutils::@7bdc9af287c8f56d444a",
+					"jsonFile" : "target-rsutils-RelWithDebInfo-b2746ea90bb5e4afbae0.json",
+					"name" : "rsutils",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-RelWithDebInfo-682ca695890d38e89634.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/email/Documents/Work/build",
+		"source" : "C:/Users/email/Documents/Work/librealsense"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

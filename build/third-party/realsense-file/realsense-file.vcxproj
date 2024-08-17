@@ -1,0 +1,494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A2B49992-6259-342E-924A-07365F99E3AB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
+    <ProjectName>realsense-file</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\email\Documents\Work\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">realsense-file.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">realsense-filed</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\email\Documents\Work\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">realsense-file.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">realsense-file</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\email\Documents\Work\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">realsense-file.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">realsense-file</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\email\Documents\Work\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">realsense-file.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">realsense-file</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\lz4\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\lz4\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\lz4\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\lz4\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\lz4\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\lz4\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\lz4\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\lz4\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\lz4\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\lz4\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\lz4\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\include;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\lz4\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/email/Documents/Work/librealsense/third-party/realsense-file/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/email/Documents/Work/librealsense -BC:/Users/email/Documents/Work/build --check-stamp-file C:/Users/email/Documents/Work/build/third-party/realsense-file/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\email\Documents\Work\build\third-party\realsense-file\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/email/Documents/Work/librealsense/third-party/realsense-file/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/email/Documents/Work/librealsense -BC:/Users/email/Documents/Work/build --check-stamp-file C:/Users/email/Documents/Work/build/third-party/realsense-file/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\email\Documents\Work\build\third-party\realsense-file\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/email/Documents/Work/librealsense/third-party/realsense-file/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/email/Documents/Work/librealsense -BC:/Users/email/Documents/Work/build --check-stamp-file C:/Users/email/Documents/Work/build/third-party/realsense-file/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\email\Documents\Work\build\third-party\realsense-file\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/email/Documents/Work/librealsense/third-party/realsense-file/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/email/Documents/Work/librealsense -BC:/Users/email/Documents/Work/build --check-stamp-file C:/Users/email/Documents/Work/build/third-party/realsense-file/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\config.cmake;C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\config.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\email\Documents\Work\build\third-party\realsense-file\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\lz4\lz4.c" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\lz4\lz4.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\include\console_bridge\console.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\include\console_bridge\exportdecl.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\console_bridge\src\console.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include\ros\cpp_common_decl.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include\ros\datatypes.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include\ros\debug.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include\ros\exception.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include\ros\header.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include\ros\macros.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include\ros\platform.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\include\ros\types.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\src\debug.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\cpp_common\src\header.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\diagnostic_msgs\KeyValue.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Accel.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\AccelStamped.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\AccelWithCovariance.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\AccelWithCovarianceStamped.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Inertia.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\InertiaStamped.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Point.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Point32.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\PointStamped.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Polygon.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\PolygonStamped.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Pose.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Pose2D.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\PoseArray.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\PoseStamped.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\PoseWithCovariance.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\PoseWithCovarianceStamped.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Quaternion.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\QuaternionStamped.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Transform.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\TransformStamped.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Twist.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\TwistStamped.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\TwistWithCovariance.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\TwistWithCovarianceStamped.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Vector3.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Vector3Stamped.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\Wrench.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\geometry_msgs\WrenchStamped.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\compressed_frame_info.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\controller_command.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\controller_event.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\controller_vendor_data.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\extrinsics.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\frame_info.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\legacy_headers.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\metadata.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\motion_intrinsics.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\motion_stream_info.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\occupancy_map.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\pose.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\stream_extrinsics.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\stream_info.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_legacy_msgs\vendor_data.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_msgs\ImuIntrinsic.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_msgs\Notification.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\realsense_msgs\StreamInfo.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\rosgraph_msgs\Clock.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\rosgraph_msgs\Log.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\rosgraph_msgs\TopicStatistics.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\BatteryState.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\CameraInfo.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\ChannelFloat32.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\CompressedImage.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\FluidPressure.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\Illuminance.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\Image.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\Imu.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\JointState.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\Joy.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\JoyFeedback.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\JoyFeedbackArray.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\LaserEcho.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\LaserScan.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\MagneticField.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\MultiDOFJointState.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\MultiEchoLaserScan.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\NavSatFix.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\NavSatStatus.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\PointCloud.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\PointCloud2.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\PointField.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\Range.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\RegionOfInterest.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\RelativeHumidity.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\SetCameraInfo.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\SetCameraInfoRequest.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\SetCameraInfoResponse.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\Temperature.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\TimeReference.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\distortion_models.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\fill_image.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\image_encodings.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\impl\point_cloud2_iterator.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\point_cloud2_iterator.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\point_cloud_conversion.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\sensor_msgs\point_field_conversion.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Bool.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Byte.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\ByteMultiArray.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Char.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\ColorRGBA.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Duration.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Empty.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Float32.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Float32MultiArray.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Float64.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Float64MultiArray.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Header.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Int16.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Int16MultiArray.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Int32.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Int32MultiArray.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Int64.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Int64MultiArray.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Int8.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Int8MultiArray.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\MultiArrayDimension.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\MultiArrayLayout.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\String.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\Time.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\UInt16.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\UInt16MultiArray.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\UInt32.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\UInt32MultiArray.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\UInt64.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\UInt64MultiArray.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\UInt8.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\UInt8MultiArray.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_bool.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_double.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_float.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_int16.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_int32.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_int64.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_int8.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_string.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_uint16.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_uint32.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_uint64.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\builtin_uint8.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\header_deprecated_def.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\msgs\std_msgs\trait_macros.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\bag.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\bag_player.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\buffer.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\chunked_file.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\constants.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\exceptions.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\macros.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\message_instance.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\query.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\stream.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\structures.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\include\rosbag\view.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\bag.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\bag_player.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\buffer.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\chunked_file.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\lz4_stream.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\message_instance.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\query.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\stream.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\uncompressed_stream.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rosbag_storage\src\view.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\include\ros\roscpp_serialization_macros.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\include\ros\serialization.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\include\ros\serialized_message.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_serialization\src\serialization.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include\ros\builtin_message_traits.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include\ros\message_event.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include\ros\message_forward.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include\ros\message_operations.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include\ros\message_traits.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roscpp_traits\include\ros\service_traits.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\include\roslz4\lz4s.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\src\lz4s.c" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\src\xxhash.c" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\roslz4\src\xxhash.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include\ros\duration.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include\ros\impl\duration.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include\ros\impl\time.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include\ros\rate.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include\ros\rostime_decl.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\include\ros\time.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\src\duration.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\src\rate.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\realsense-file\rosbag\rostime\src\time.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\email\Documents\Work\build\ZERO_CHECK.vcxproj">
+      <Project>{31BE3AB4-DBBE-3F36-A0D5-9D6FA6731D71}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

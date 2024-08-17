@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Users/email/Documents/Work/build/libcurl/src/libcurl-build/lib/Makefile.inc.cmake
+C:/Users/email/Documents/Work/build/third-party/libcurl/lib/CMakeLists.txt
+C:/Users/email/Documents/Work/build/third-party/libcurl/lib/Makefile.inc
+C:/Users/email/Documents/Work/build/third-party/libcurl/lib/curl_config.h.cmake

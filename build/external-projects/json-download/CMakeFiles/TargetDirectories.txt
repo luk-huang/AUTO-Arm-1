@@ -1,0 +1,3 @@
+C:/Users/email/Documents/Work/build/external-projects/json-download/CMakeFiles/nlohmann_json.dir
+C:/Users/email/Documents/Work/build/external-projects/json-download/CMakeFiles/ALL_BUILD.dir
+C:/Users/email/Documents/Work/build/external-projects/json-download/CMakeFiles/ZERO_CHECK.dir

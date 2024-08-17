@@ -1,0 +1,6 @@
+C:/Users/email/Documents/Work/build/libcurl/src/libcurl-build/CMakeFiles/uninstall.dir
+C:/Users/email/Documents/Work/build/libcurl/src/libcurl-build/CMakeFiles/INSTALL.dir
+C:/Users/email/Documents/Work/build/libcurl/src/libcurl-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/email/Documents/Work/build/libcurl/src/libcurl-build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/email/Documents/Work/build/libcurl/src/libcurl-build/lib/CMakeFiles/libcurl.dir
+C:/Users/email/Documents/Work/build/libcurl/src/libcurl-build/lib/CMakeFiles/INSTALL.dir

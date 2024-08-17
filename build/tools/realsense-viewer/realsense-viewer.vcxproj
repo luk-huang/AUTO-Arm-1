@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8E685070-B2F4-3F3A-BF44-46862DFF67AC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
+    <ProjectName>realsense-viewer</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\email\Documents\Work\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">realsense-viewer.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">realsense-viewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\email\Documents\Work\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">realsense-viewer.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">realsense-viewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\email\Documents\Work\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">realsense-viewer.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">realsense-viewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\email\Documents\Work\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">realsense-viewer.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">realsense-viewer</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\build;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\common;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\tinyfiledialogs;C:\Users\email\Documents\Work\librealsense\third-party\glfw\include;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\imgui;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\glad;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\src;C:\Users\email\Documents\Work\build\common\fw;C:\Users\email\Documents\Work\librealsense\include;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;C:\Users\email\Documents\Work\librealsense\src\gl\..\..\include;C:\Users\email\Documents\Work\build\libcurl\libcurl_install\include;C:\Users\email\Documents\Work\librealsense\third-party\tclap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;__SSSE3__;_CRT_SECURE_NO_WARNINGS;INTERNAL_FW;ELPP_NO_DEFAULT_LOG_FILE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;__SSSE3__;_CRT_SECURE_NO_WARNINGS;INTERNAL_FW;ELPP_NO_DEFAULT_LOG_FILE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\build;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\common;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\tinyfiledialogs;C:\Users\email\Documents\Work\librealsense\third-party\glfw\include;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\imgui;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\glad;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\src;C:\Users\email\Documents\Work\build\common\fw;C:\Users\email\Documents\Work\librealsense\include;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;C:\Users\email\Documents\Work\librealsense\src\gl\..\..\include;C:\Users\email\Documents\Work\build\libcurl\libcurl_install\include;C:\Users\email\Documents\Work\librealsense\third-party\tclap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\build;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\common;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\tinyfiledialogs;C:\Users\email\Documents\Work\librealsense\third-party\glfw\include;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\imgui;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\glad;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\src;C:\Users\email\Documents\Work\build\common\fw;C:\Users\email\Documents\Work\librealsense\include;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;C:\Users\email\Documents\Work\librealsense\src\gl\..\..\include;C:\Users\email\Documents\Work\build\libcurl\libcurl_install\include;C:\Users\email\Documents\Work\librealsense\third-party\tclap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\Debug\fwd.lib;..\..\Debug\glfw3d.lib;opengl32.lib;glu32.lib;..\..\Debug\realsense2-gld.lib;..\..\common\fw\fw.res;..\..\Debug\realsense2d.lib;..\..\Debug\rsutilsd.lib;..\..\libcurl\libcurl_install\lib\libcurl-d.lib;ws2_32.lib;crypt32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <DelayLoadDLLs>/realsense2d.dll;/realsense2-gld.dll;/realsense2.dll;/realsense2-gl.dll</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/email/Documents/Work/build/Debug/realsense-viewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/email/Documents/Work/build/Debug/realsense-viewer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\build;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\common;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\tinyfiledialogs;C:\Users\email\Documents\Work\librealsense\third-party\glfw\include;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\imgui;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\glad;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\src;C:\Users\email\Documents\Work\build\common\fw;C:\Users\email\Documents\Work\librealsense\include;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;C:\Users\email\Documents\Work\librealsense\src\gl\..\..\include;C:\Users\email\Documents\Work\build\libcurl\libcurl_install\include;C:\Users\email\Documents\Work\librealsense\third-party\tclap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;__SSSE3__;_CRT_SECURE_NO_WARNINGS;INTERNAL_FW;ELPP_NO_DEFAULT_LOG_FILE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;__SSSE3__;_CRT_SECURE_NO_WARNINGS;INTERNAL_FW;ELPP_NO_DEFAULT_LOG_FILE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\build;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\common;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\tinyfiledialogs;C:\Users\email\Documents\Work\librealsense\third-party\glfw\include;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\imgui;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\glad;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\src;C:\Users\email\Documents\Work\build\common\fw;C:\Users\email\Documents\Work\librealsense\include;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;C:\Users\email\Documents\Work\librealsense\src\gl\..\..\include;C:\Users\email\Documents\Work\build\libcurl\libcurl_install\include;C:\Users\email\Documents\Work\librealsense\third-party\tclap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\build;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\common;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\tinyfiledialogs;C:\Users\email\Documents\Work\librealsense\third-party\glfw\include;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\imgui;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\glad;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\src;C:\Users\email\Documents\Work\build\common\fw;C:\Users\email\Documents\Work\librealsense\include;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;C:\Users\email\Documents\Work\librealsense\src\gl\..\..\include;C:\Users\email\Documents\Work\build\libcurl\libcurl_install\include;C:\Users\email\Documents\Work\librealsense\third-party\tclap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\Release\fw.lib;..\..\Release\glfw3.lib;opengl32.lib;glu32.lib;..\..\Release\realsense2-gl.lib;..\..\common\fw\fw.res;..\..\Release\realsense2.lib;..\..\Release\rsutils.lib;..\..\libcurl\libcurl_install\lib\libcurl.lib;ws2_32.lib;crypt32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <DelayLoadDLLs>/realsense2d.dll;/realsense2-gld.dll;/realsense2.dll;/realsense2-gl.dll</DelayLoadDLLs>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/email/Documents/Work/build/Release/realsense-viewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/email/Documents/Work/build/Release/realsense-viewer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\build;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\common;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\tinyfiledialogs;C:\Users\email\Documents\Work\librealsense\third-party\glfw\include;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\imgui;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\glad;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\src;C:\Users\email\Documents\Work\build\common\fw;C:\Users\email\Documents\Work\librealsense\include;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;C:\Users\email\Documents\Work\librealsense\src\gl\..\..\include;C:\Users\email\Documents\Work\build\libcurl\libcurl_install\include;C:\Users\email\Documents\Work\librealsense\third-party\tclap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;__SSSE3__;_CRT_SECURE_NO_WARNINGS;INTERNAL_FW;ELPP_NO_DEFAULT_LOG_FILE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;__SSSE3__;_CRT_SECURE_NO_WARNINGS;INTERNAL_FW;ELPP_NO_DEFAULT_LOG_FILE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\build;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\common;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\tinyfiledialogs;C:\Users\email\Documents\Work\librealsense\third-party\glfw\include;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\imgui;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\glad;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\src;C:\Users\email\Documents\Work\build\common\fw;C:\Users\email\Documents\Work\librealsense\include;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;C:\Users\email\Documents\Work\librealsense\src\gl\..\..\include;C:\Users\email\Documents\Work\build\libcurl\libcurl_install\include;C:\Users\email\Documents\Work\librealsense\third-party\tclap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\build;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\common;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\tinyfiledialogs;C:\Users\email\Documents\Work\librealsense\third-party\glfw\include;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\imgui;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\glad;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\src;C:\Users\email\Documents\Work\build\common\fw;C:\Users\email\Documents\Work\librealsense\include;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;C:\Users\email\Documents\Work\librealsense\src\gl\..\..\include;C:\Users\email\Documents\Work\build\libcurl\libcurl_install\include;C:\Users\email\Documents\Work\librealsense\third-party\tclap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\MinSizeRel\fw.lib;..\..\MinSizeRel\glfw3.lib;opengl32.lib;glu32.lib;..\..\MinSizeRel\realsense2-gl.lib;..\..\common\fw\fw.res;..\..\MinSizeRel\realsense2.lib;..\..\MinSizeRel\rsutils.lib;..\..\libcurl\libcurl_install\lib\libcurl.lib;ws2_32.lib;crypt32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <DelayLoadDLLs>/realsense2d.dll;/realsense2-gld.dll;/realsense2.dll;/realsense2-gl.dll</DelayLoadDLLs>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/email/Documents/Work/build/MinSizeRel/realsense-viewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/email/Documents/Work/build/MinSizeRel/realsense-viewer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\build;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\common;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\tinyfiledialogs;C:\Users\email\Documents\Work\librealsense\third-party\glfw\include;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\imgui;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\glad;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\src;C:\Users\email\Documents\Work\build\common\fw;C:\Users\email\Documents\Work\librealsense\include;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;C:\Users\email\Documents\Work\librealsense\src\gl\..\..\include;C:\Users\email\Documents\Work\build\libcurl\libcurl_install\include;C:\Users\email\Documents\Work\librealsense\third-party\tclap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;__SSSE3__;_CRT_SECURE_NO_WARNINGS;INTERNAL_FW;ELPP_NO_DEFAULT_LOG_FILE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;NOMINMAX;ELPP_THREAD_SAFE;BUILD_EASYLOGGINGPP;HWM_OVER_XU;COM_MULTITHREADED;BUILD_SHARED_LIBS;CURL_STATICLIB;CHECK_FOR_UPDATES;RS2_USE_WMF_BACKEND;UNICODE;__SSSE3__;_CRT_SECURE_NO_WARNINGS;INTERNAL_FW;ELPP_NO_DEFAULT_LOG_FILE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\build;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\common;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\tinyfiledialogs;C:\Users\email\Documents\Work\librealsense\third-party\glfw\include;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\imgui;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\glad;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\src;C:\Users\email\Documents\Work\build\common\fw;C:\Users\email\Documents\Work\librealsense\include;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;C:\Users\email\Documents\Work\librealsense\src\gl\..\..\include;C:\Users\email\Documents\Work\build\libcurl\libcurl_install\include;C:\Users\email\Documents\Work\librealsense\third-party\tclap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\email\Documents\Work\librealsense;C:\Users\email\Documents\Work\build;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\common;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\tinyfiledialogs;C:\Users\email\Documents\Work\librealsense\third-party\glfw\include;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\imgui;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\third-party\glad;C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\..\..\src;C:\Users\email\Documents\Work\build\common\fw;C:\Users\email\Documents\Work\librealsense\include;C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include;C:\Users\email\Documents\Work\build\third-party\json\include;C:\Users\email\Documents\Work\librealsense\src\gl\..\..\include;C:\Users\email\Documents\Work\build\libcurl\libcurl_install\include;C:\Users\email\Documents\Work\librealsense\third-party\tclap\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\RelWithDebInfo\fw.lib;..\..\RelWithDebInfo\glfw3.lib;opengl32.lib;glu32.lib;..\..\RelWithDebInfo\realsense2-gl.lib;..\..\common\fw\fw.res;..\..\RelWithDebInfo\realsense2.lib;..\..\RelWithDebInfo\rsutils.lib;..\..\libcurl\libcurl_install\lib\libcurl.lib;ws2_32.lib;crypt32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <DelayLoadDLLs>/realsense2d.dll;/realsense2-gld.dll;/realsense2.dll;/realsense2-gl.dll</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/email/Documents/Work/build/RelWithDebInfo/realsense-viewer.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/email/Documents/Work/build/RelWithDebInfo/realsense-viewer.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/email/Documents/Work/librealsense/tools/realsense-viewer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/email/Documents/Work/librealsense -BC:/Users/email/Documents/Work/build --check-stamp-file C:/Users/email/Documents/Work/build/tools/realsense-viewer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindThreads.cmake;C:\Users\email\Documents\Work\librealsense\common\CMakeLists.txt;C:\Users\email\Documents\Work\librealsense\wrappers\openvino\check_vino_version.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\email\Documents\Work\build\tools\realsense-viewer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/email/Documents/Work/librealsense/tools/realsense-viewer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/email/Documents/Work/librealsense -BC:/Users/email/Documents/Work/build --check-stamp-file C:/Users/email/Documents/Work/build/tools/realsense-viewer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindThreads.cmake;C:\Users\email\Documents\Work\librealsense\common\CMakeLists.txt;C:\Users\email\Documents\Work\librealsense\wrappers\openvino\check_vino_version.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\email\Documents\Work\build\tools\realsense-viewer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/email/Documents/Work/librealsense/tools/realsense-viewer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/email/Documents/Work/librealsense -BC:/Users/email/Documents/Work/build --check-stamp-file C:/Users/email/Documents/Work/build/tools/realsense-viewer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindThreads.cmake;C:\Users\email\Documents\Work\librealsense\common\CMakeLists.txt;C:\Users\email\Documents\Work\librealsense\wrappers\openvino\check_vino_version.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\email\Documents\Work\build\tools\realsense-viewer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/email/Documents/Work/librealsense/tools/realsense-viewer/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/email/Documents/Work/librealsense -BC:/Users/email/Documents/Work/build --check-stamp-file C:/Users/email/Documents/Work/build/tools/realsense-viewer/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\FindThreads.cmake;C:\Users\email\Documents\Work\librealsense\common\CMakeLists.txt;C:\Users\email\Documents\Work\librealsense\wrappers\openvino\check_vino_version.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\email\Documents\Work\build\tools\realsense-viewer\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\easylogging\elpp-init.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\animated.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\float2.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\float3.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\float4.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\matrix4.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\plane.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\rect.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\rendering.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\model-views.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\model-views.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\notifications.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\notifications.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\calibration-model.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\calibration-model.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\viewer.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\viewer.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\ux-window.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\ux-window.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\ux-alignment.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\ux-alignment.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\opengl3.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\opengl3.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\rs-config.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\rs-config.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\os.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\os.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\fw-update-helper.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\fw-update-helper.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\metadata-helper.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\metadata-helper.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\output-model.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\output-model.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\skybox.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\skybox.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\measurement.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\measurement.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\on-chip-calib.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\on-chip-calib.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\updates-model.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\updates-model.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\option-model.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\option-model.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\device-model.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\device-model.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\subdevice-model.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\subdevice-model.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\processing-block-model.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\processing-block-model.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\stream-model.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\stream-model.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\post-processing-filters.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\post-processing-filters.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\sw-update\http-downloader.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\sw-update\http-downloader.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\sw-update\dev-updates-profile.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\sw-update\dev-updates-profile.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\sw-update\versions-db-manager.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\sw-update\versions-db-manager.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\reflectivity\reflectivity.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\reflectivity\reflectivity.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\utilities\imgui\wrap.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\utilities\imgui\wrap.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\realsense-viewer.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\imgui\imgui.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\imgui\imgui_draw.cpp" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\imgui\imgui_impl_glfw.cpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\imgui\imgui-fonts-karla.hpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\imgui\imgui-fonts-fontawesome.hpp" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\realsense-ui-advanced-mode.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\post-processing-block-model.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\post-processing-filter.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\post-processing-worker-filter.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\post-processing-filters-list.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\objects-in-frame.h" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\glad\glad.c" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\tinyfiledialogs\tinyfiledialogs.c" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\tinyfiledialogs\tinyfiledialogs.h" />
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\res\resource.h" />
+    <ResourceCompile Include="C:\Users\email\Documents\Work\librealsense\tools\realsense-viewer\res\realsense-viewer.rc" />
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\windows-app-bootstrap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\email\Documents\Work\build\ZERO_CHECK.vcxproj">
+      <Project>{31BE3AB4-DBBE-3F36-A0D5-9D6FA6731D71}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\email\Documents\Work\build\common\fw\fw.vcxproj">
+      <Project>{A6DB2413-8D9B-3351-8FDF-678759264082}</Project>
+      <Name>fw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\email\Documents\Work\build\third-party\glfw\src\glfw.vcxproj">
+      <Project>{05F3CFC4-5DAD-3224-8068-5C35C788722A}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\email\Documents\Work\build\libcurl.vcxproj">
+      <Project>{52E6DE31-7148-36DA-9A18-8D23575E76A4}</Project>
+      <Name>libcurl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\email\Documents\Work\build\realsense2.vcxproj">
+      <Project>{4062BA16-EBBC-3D2E-9C2B-35E7165585E7}</Project>
+      <Name>realsense2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\email\Documents\Work\build\src\gl\realsense2-gl.vcxproj">
+      <Project>{B8CFF601-7065-3F85-8425-11709599C311}</Project>
+      <Name>realsense2-gl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\email\Documents\Work\build\third-party\rsutils\rsutils.vcxproj">
+      <Project>{DD5DDBAB-7F0F-330A-B14E-877110987B9F}</Project>
+      <Name>rsutils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

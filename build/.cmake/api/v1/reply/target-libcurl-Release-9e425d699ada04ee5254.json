@@ -1,0 +1,167 @@
+{
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"ExternalProject_Add",
+			"include",
+			"global_set_flags"
+		],
+		"files" : 
+		[
+			"C:/Users/email/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/ExternalProject.cmake",
+			"CMake/external_libcurl.cmake",
+			"CMake/global_config.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 79,
+				"parent" : 1
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4239,
+				"parent" : 4
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "ExternalProjectTargets/libcurl"
+	},
+	"id" : "libcurl::@6890427a1f51a3e7e1df",
+	"name" : "libcurl",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "C:/Users/email/Documents/Work/build/CMakeFiles/libcurl",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/email/Documents/Work/build/CMakeFiles/2b8ab92f989cc22336d84ab8d2d654b3/libcurl.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/email/Documents/Work/build/CMakeFiles/89aefb92aba0ca5f86a3baf5f0db284e/libcurl-complete.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/email/Documents/Work/build/CMakeFiles/9e0c1ebb18a73489865185a493b0912f/libcurl-build.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/email/Documents/Work/build/CMakeFiles/9e0c1ebb18a73489865185a493b0912f/libcurl-configure.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/email/Documents/Work/build/CMakeFiles/9e0c1ebb18a73489865185a493b0912f/libcurl-download.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/email/Documents/Work/build/CMakeFiles/9e0c1ebb18a73489865185a493b0912f/libcurl-install.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/email/Documents/Work/build/CMakeFiles/9e0c1ebb18a73489865185a493b0912f/libcurl-mkdir.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/email/Documents/Work/build/CMakeFiles/9e0c1ebb18a73489865185a493b0912f/libcurl-patch.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/email/Documents/Work/build/CMakeFiles/9e0c1ebb18a73489865185a493b0912f/libcurl-test.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/email/Documents/Work/build/CMakeFiles/9e0c1ebb18a73489865185a493b0912f/libcurl-update.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

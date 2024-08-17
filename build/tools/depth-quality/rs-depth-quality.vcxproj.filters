@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\easylogging\elpp-init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\model-views.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\notifications.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\calibration-model.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\viewer.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\ux-window.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\ux-alignment.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\opengl3.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\rs-config.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\os.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\fw-update-helper.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\metadata-helper.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\output-model.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\skybox.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\measurement.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\on-chip-calib.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\updates-model.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\option-model.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\device-model.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\subdevice-model.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\processing-block-model.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\stream-model.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\post-processing-filters.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\sw-update\http-downloader.cpp">
+      <Filter>SW-Update</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\sw-update\dev-updates-profile.cpp">
+      <Filter>SW-Update</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\sw-update\versions-db-manager.cpp">
+      <Filter>SW-Update</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\reflectivity\reflectivity.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\utilities\imgui\wrap.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\tools\depth-quality\rs-depth-quality.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\tools\depth-quality\depth-quality-model.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\imgui\imgui.cpp">
+      <Filter>3rd Party</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\imgui\imgui_draw.cpp">
+      <Filter>3rd Party</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\imgui\imgui_impl_glfw.cpp">
+      <Filter>3rd Party</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\glad\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\tinyfiledialogs\tinyfiledialogs.c">
+      <Filter>3rd Party</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\common\windows-app-bootstrap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\animated.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\float2.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\float3.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\float4.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\matrix4.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\plane.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\rect.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\rendering.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\model-views.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\notifications.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\calibration-model.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\viewer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\ux-window.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\ux-alignment.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\opengl3.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\rs-config.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\os.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\fw-update-helper.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\metadata-helper.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\output-model.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\skybox.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\measurement.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\on-chip-calib.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\updates-model.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\option-model.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\device-model.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\subdevice-model.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\processing-block-model.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\stream-model.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\post-processing-filters.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\sw-update\http-downloader.h">
+      <Filter>SW-Update</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\sw-update\dev-updates-profile.h">
+      <Filter>SW-Update</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\sw-update\versions-db-manager.h">
+      <Filter>SW-Update</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\reflectivity\reflectivity.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\utilities\imgui\wrap.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\tools\depth-quality\depth-quality-model.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\tools\depth-quality\depth-metrics.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\common\realsense-ui-advanced-mode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\imgui\imgui-fonts-karla.hpp">
+      <Filter>3rd Party</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\imgui\imgui-fonts-fontawesome.hpp">
+      <Filter>3rd Party</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\tinyfiledialogs\tinyfiledialogs.h">
+      <Filter>3rd Party</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\tools\depth-quality\res\resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\email\Documents\Work\librealsense\tools\depth-quality\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\email\Documents\Work\librealsense\tools\depth-quality\res\realsense-viewer.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="3rd Party">
+      <UniqueIdentifier>{75F32198-F3D8-328A-91B3-DC555011DBDA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1AC6CC41-DB9A-3027-92EE-713222751A99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{B55B2180-2B65-3EE4-8EE9-D1C4A193C5C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SW-Update">
+      <UniqueIdentifier>{8F9A0879-B768-3444-8BA3-20B2D96ADE06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D6DF85BE-47C8-3F09-B678-7523E59315FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{D5467279-F518-3B3B-B497-3D52D5347DB3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

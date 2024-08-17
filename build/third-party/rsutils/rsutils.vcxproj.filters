@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\easyloggingpp\src\easylogging++.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\configure-elpp-logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\crc32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\dispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\ensure-console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\executable-name.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\float3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\from.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\hexarray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\hexdump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\ip-address.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\json.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\make-less-screamy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\os.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\shorten-json-string.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\special-folder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\src\work-week.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\easyloggingpp\src\easylogging++.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\concurrency\concurrency.h">
+      <Filter>Header Files\concurrency</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\deferred.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\easylogging\easyloggingpp.h">
+      <Filter>Header Files\easylogging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\json-config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\json-fwd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\lazy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\number\crc32.h">
+      <Filter>Header Files\number</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\number\float3.h">
+      <Filter>Header Files\number</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\number\running-average.h">
+      <Filter>Header Files\number</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\number\stabilized-value.h">
+      <Filter>Header Files\number</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\os\ensure-console.h">
+      <Filter>Header Files\os</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\os\executable-name.h">
+      <Filter>Header Files\os</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\os\hresult.h">
+      <Filter>Header Files\os</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\os\os.h">
+      <Filter>Header Files\os</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\os\special-folder.h">
+      <Filter>Header Files\os</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\py\json.h">
+      <Filter>Header Files\py</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\py\pybind11.h">
+      <Filter>Header Files\py</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\shared-ptr-singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\signal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\chrono.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\ellipsis.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\from.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\hexarray.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\hexdump.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\ip-address.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\make-less-screamy.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\nocase.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\shorten-json-string.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\slice.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\split.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\string-utilities.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\trim-newlines.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\string\windows.h">
+      <Filter>Header Files\string</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\subscription.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\time\common.h">
+      <Filter>Header Files\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\time\periodic-timer.h">
+      <Filter>Header Files\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\time\stopwatch.h">
+      <Filter>Header Files\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\time\timer.h">
+      <Filter>Header Files\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\time\waiting-on.h">
+      <Filter>Header Files\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\time\work-week.h">
+      <Filter>Header Files\time</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\include\rsutils\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\email\Documents\Work\librealsense\third-party\rsutils\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1AC6CC41-DB9A-3027-92EE-713222751A99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\concurrency">
+      <UniqueIdentifier>{8D11A7DD-6C49-3B85-8DE3-7B28B96DBCF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\easylogging">
+      <UniqueIdentifier>{7A84323B-C2E7-3E60-A666-F4DCD332DADD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\number">
+      <UniqueIdentifier>{DB05F5D0-24F7-3961-80AF-28BFD6DE552A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\os">
+      <UniqueIdentifier>{5D67BBE4-3469-3099-8DD5-37571F18DF85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\py">
+      <UniqueIdentifier>{A13952F1-2F74-3E60-BC8C-76B1488F4F04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\string">
+      <UniqueIdentifier>{06BEE3ED-FB46-34A7-B46A-584E69A08537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\time">
+      <UniqueIdentifier>{086FC5BD-C28B-3F9A-9D7E-3BF9A681CDAE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D6DF85BE-47C8-3F09-B678-7523E59315FC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

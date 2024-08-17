@@ -1,0 +1,10 @@
+^C:\USERS\EMAIL\DOCUMENTS\WORK\BUILD\LIBCURL\SRC\LIBCURL-BUILD\CMAKEFILES\AE71825DB7B527A5F13ED89329647D7E\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

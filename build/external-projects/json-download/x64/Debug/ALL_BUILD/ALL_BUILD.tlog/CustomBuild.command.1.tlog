@@ -1,0 +1,10 @@
+^C:\USERS\EMAIL\DOCUMENTS\WORK\BUILD\EXTERNAL-PROJECTS\JSON-DOWNLOAD\CMAKELISTS.TXT
+setlocal
+C:\Users\email\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/email/Documents/Work/build/external-projects/json-download -BC:/Users/email/Documents/Work/build/external-projects/json-download --check-stamp-file C:/Users/email/Documents/Work/build/external-projects/json-download/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
