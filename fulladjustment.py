@@ -432,10 +432,10 @@ if __name__ == '__main__':
     parameters = cv2.aruco.DetectorParameters()
 
     # Main loop for real-time detection
-    cap1 = cv2.VideoCapture(1, cv2.CAP_MSMF)
+    cap1 = cv2.VideoCapture(0, cv2.CAP_MSMF)
     cap1.set(cv2.CAP_PROP_FRAME_WIDTH, 3840)
     cap1.set(cv2.CAP_PROP_FRAME_HEIGHT, 2160)
-    cap2 = cv2.VideoCapture(2, cv2.CAP_MSMF)
+    cap2 = cv2.VideoCapture(1, cv2.CAP_MSMF)
     cap2.set(cv2.CAP_PROP_FRAME_WIDTH, 3840)
     cap2.set(cv2.CAP_PROP_FRAME_HEIGHT, 2160)
 
