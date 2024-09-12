@@ -5,16 +5,16 @@ import pyrealsense2 as rs
 # Test Camera 1 with MSMF
 print(cv2.__version__)
 
-cap1 = cv2.VideoCapture(0) 
+cap1 = cv2.VideoCapture(4) 
 # pipeline = rs.pipeline()
 # config = rs.config()
 
-cap2 = cv2.VideoCapture(1)  # For Windows MSMF
+# cap2 = cv2.VideoCapture(1)  # For Windows MSMF
 while True:
     ret1, frame1 = cap1.read()
-    ret2, frame2 = cap2.read()
+    # ret2, frame2 = cap2.read()
     cv2.imshow('Camera 1', frame1)
-    cv2.imshow('Camera 2', frame2)
+    # cv2.imshow('Camera 2', frame2)
 
     # config.enable_stream(rs.stream.color, 640, 480, rs.format.bgr8, 15)
     # config.enable_stream(rs.stream.depth,640,480,rs.format.z16,15)
