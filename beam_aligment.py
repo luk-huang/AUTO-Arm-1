@@ -36,6 +36,7 @@ import cv2
 import pyrealsense2 as rs
 sys.path.append(os.path.join(os.path.dirname(__file__), '../../..'))
 
+from PIL import Image
 from xarm.wrapper import XArmAPI
 if len(sys.argv) >= 2:
     ip = sys.argv[1]
@@ -184,6 +185,35 @@ def pickup(arm,coor,pipeline):
     code = arm.set_position_aa(place[:2]+[400]+place[3:], speed=speeds,mvacc=100, wait=True)
     code = arm.set_servo_angle(angle=[180,75,-180,20,0,90,-60],is_radian=False,speed=speeds)
     return height
+
+def move_to(arm,coor):
+    arm.set_gripper_enable(True)
+    code = arm.set_gripper_speed(2000)
+    print("Move to coordinate: ",coor)
+    speeds=80
+    x=coor[0]
+    y=coor[1]
+
+    new_angle=math.atan2(y,x)/math.pi*180
+    new_angle+=180
+    quad=0
+    if x>=0 and y>=0:
+        quad=1
+    elif x<0 and y>=0:
+        quad=2
+        new_angle=280
+    elif x<0 and y<0:
+        quad=3
+    else:
+        quad=4
+    height=coor[2]
+    highcoor=[coor[0]-75]+[coor[1]-35]+[400]+coor[3:]
+    code = arm.set_servo_angle(servo_id=1,angle=new_angle,wait=True,is_radian=False,speed=speeds)
+    code = arm.set_position_aa(highcoor, speed=speeds,mvacc=100, wait=True)
+    code = arm.set_position_aa(coor, speed=speeds,mvacc=100, wait=True)
+    
+
+
 def pickup_claw(arm,coor,pipeline):
     arm.set_gripper_enable(True)
     code = arm.set_gripper_speed(2000)
@@ -431,6 +461,50 @@ def fine_adjust(arm,pipeline):
     print("depth",depth_value)
     return depth_value
 
+def find_laser_center(image):
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+    blurred = cv2.GaussianBlur(gray, (5, 5), 0)
+    _, thresholded = cv2.threshold(blurred,  100, 255, cv2.THRESH_BINARY) # change the lower number to decrease threshold
+    contours, _ = cv2.findContours(thresholded, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+
+    if len(contours) == 0:
+        return None
+
+    largest_contour = max(contours, key=cv2.contourArea)
+    moments = cv2.moments(largest_contour)
+    if moments["m00"] == 0:
+        return None
+
+    cX = int(moments["m10"] / moments["m00"])
+    cY = int(moments["m01"] / moments["m00"])
+
+    return (cX, cY)
+
+def check_saturation(image):
+    hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
+    _, saturation, _ = cv2.split(hsv)
+    avg_saturation = np.mean(saturation)
+    
+
+    # Define a saturation threshold, and print an error if it's exceeded
+    saturation_threshold = 150  # You can adjust this threshold
+    if avg_saturation > saturation_threshold:
+        print("Error: High saturation detected! Average saturation:", avg_saturation)
+
+def center_arm(arm,frame):
+    check_saturation(frame)
+        
+    laser_center = find_laser_center(frame)
+
+    
+    if laser_center is not None:
+        cv2.circle(frame, laser_center, 10, (0, 255, 0), -1)
+    else:
+        print("Laser spot not detected")
+    cv2.imshow("Laser Detection", frame)
+    
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        return
 if __name__ == '__main__':
     print(cv2.__version__)
     # Load calibration data
@@ -522,15 +596,25 @@ if __name__ == '__main__':
             height=pickup_claw_stay(arm,mem,pipeline)
             camera_coor=mem[:2]+[height]+mem[3:]
             print(camera_coor)
+            laser_pos=[333.53046892853723, 277.16616488257137, 269, -180, 0, 0]
+            move_to(arm,laser_pos)
             break
         
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 
+
     cap1.release()
     cap2.release()
     cap2 = cv2.VideoCapture(4, cv2.CAP_MSMF)
+
+    while True:
+        ret, frame = cap2.read()
+        if not ret:
+            print("Error: Could not read frame.")
+            break
+        center_arm(arm,frame)
     
     cv2.destroyAllWindows()
     pipeline.stop()
