@@ -450,8 +450,16 @@ if __name__ == '__main__':
         ret1, frame1 = cap1.read()
         ret2, frame2 = cap2.read()
 
-        if not ret1 or not ret2:
-            print("Error: Could not read frame from one or both cameras.")
+        broke = False
+        if not ret1:
+            print("Error: First camera not working")
+            broke = True
+
+        if not ret2:
+            print("Error: Second camera not working")
+            broke = True
+        
+        if broke:
             break
 
         corners1, id1 = detect_aruco(frame1, target_id)
