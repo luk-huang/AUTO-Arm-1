@@ -486,110 +486,25 @@ def center_arm(arm,frame):
         return laser_center
     else:
         return -1
+        print("Laser spot not detected")
+    cv2.imshow("Laser Detection", frame)
+    cv2.waitKey(500)
+    return laser_center
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        return
 if __name__ == '__main__':
     print(cv2.__version__)
     # Load calibration data
+    
     camera_coor=[351.468109, 265.150024, 269.0, 140.77023, -112.177172, -0.118774]
 
-    calibration_data = np.load('stereo_calibration2.npz')
-    mtx1 = calibration_data['mtx1']
-    dist1 = calibration_data['dist1']
-    mtx2 = calibration_data['mtx2']
-    dist2 = calibration_data['dist2']
-    R = calibration_data['R']
-    T = calibration_data['T']
-    actual_distance = 0.23  # 23 cm
-    calibrated_distance = 0.22  # 22 cm
-
-    # Realsense Pipelines
-    pipeline = rs.pipeline()
-    config = rs.config()
-    config.enable_stream(rs.stream.depth, 640, 480, rs.format.z16, 15)
-    config.enable_stream(rs.stream.color, 640, 480, rs.format.bgr8, 15)
-    pipeline.start(config)
-
-    # Calculate the scaling factor
-    scale_factor = actual_distance / calibrated_distance
-    print(f"Scaling factor: {scale_factor}")
-
-    # Adjust the translation vector
-    T = T * scale_factor
-    print(f"Scaled translation vector:\n{T}")
-
-    # Compute projection matrices
-    proj1 = mtx1 @ np.hstack((np.eye(3), np.zeros((3, 1))))
-    proj2 = mtx2 @ np.hstack((R, T))
-
-    # Define the ArUco dictionary and parameters
-    aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_6X6_250)
-    parameters = cv2.aruco.DetectorParameters()
-
-    # Main loop for real-time detection
-    cap1 = cv2.VideoCapture(0, cv2.CAP_MSMF)
-    cap1.set(cv2.CAP_PROP_FRAME_WIDTH, 3840)
-    cap1.set(cv2.CAP_PROP_FRAME_HEIGHT, 2160)
-    cap2 = cv2.VideoCapture(1, cv2.CAP_MSMF)
-    cap2.set(cv2.CAP_PROP_FRAME_WIDTH, 3840)
-    cap2.set(cv2.CAP_PROP_FRAME_HEIGHT, 2160)
-
-    target_id = 4
-    arm.set_gripper_enable(True)
-    code = arm.set_gripper_speed(2000)
-    arm.set_gripper_position(850,wait=True)
-    marker_length = 0.062  # Length of the marker's side in meters
-    start()
-    while True: 
-        ret1, frame1 = cap1.read()
-        ret2, frame2 = cap2.read()
-
-        if not ret1 or not ret2:
-            print("Error: Could not read frame from one or both cameras.")
-            break
-
-        corners1, id1 = detect_aruco(frame1, target_id)
-        corners2, id2 = detect_aruco(frame2, target_id)
-
-        if corners1 is not None and corners2 is not None:
-            rvec1, tvec1 = estimate_pose(corners1, mtx1, dist1, marker_length)
-            rvec2, tvec2 = estimate_pose(corners2, mtx2, dist2, marker_length)
-
-            print(f"Target ArUco tag detected!")
-            print(f"Camera 1 - Rotation Vector:\n{rvec1}\nTranslation Vector:\n{tvec1}")
-            print(f"Camera 2 - Rotation Vector:\n{rvec2}\nTranslation Vector:\n{tvec2}")
-
-            avg_rvec = average_rotation_vectors([rvec1, rvec2])
-            avg_tvec = np.mean([tvec1, tvec2], axis=0)
-
-            print(f"Averaged Rotation Vector:\n{avg_rvec}\nAveraged Translation Vector:\n{avg_tvec}")
-
-            draw_axis(frame1, avg_rvec, avg_tvec, mtx1, dist1)
-
-            avg_rvec_text = f"Avg Rvec: {avg_rvec[0][0]:.2f}, {avg_rvec[1][0]:.2f}, {avg_rvec[2][0]:.2f}"
-            avg_tvec_text = f"Avg Tvec: {avg_tvec[0][0]:.2f}, {avg_tvec[1][0]:.2f}, {avg_tvec[2][0]:.2f}"
-            
-            mem=avg_tvec.flatten()
-            rot=avg_rvec.flatten()
-            mem=mem.tolist()
-            mem.extend([-180,0,0])
-            mem[0]=-mem[0]*1000
-            mem[1]=mem[1]*1000
-            mem[2]=(1.2-mem[2])*1000
-            pickup_claw(arm,mem,pipeline)
-            move_to(arm,camera_coor)
-            
-            break
-        
-
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            break
 
 
-    cap1.release()
-    cap2.release()
+    
     cap2 = cv2.VideoCapture(4)
     centered=False
     centers=[]
-    save_folder = 'saved_frames_full_nolight'
+    save_folder = 'saved_frames'
     if not os.path.exists(save_folder):
         os.makedirs(save_folder)
 
@@ -630,11 +545,5 @@ if __name__ == '__main__':
 
     # Perform linear regression to find the slope (m) and intercept (b)
     slope, intercept = np.polyfit(x_coords, y_coords, 1)
-    print("Slope: ",slope," Intercept: ",intercept)
+    print(slope,intercept)
     cv2.destroyAllWindows()
-
-    pipeline.stop()
-
-
-    (0.1848432539070972, 340.6015844147822) #prediction full
-    (-0.16123984572221328, 544.4053214833644) # prediction dark
