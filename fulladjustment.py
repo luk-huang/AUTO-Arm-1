@@ -450,6 +450,17 @@ if __name__ == '__main__':
         ret1, frame1 = cap1.read()
         ret2, frame2 = cap2.read()
 
+        """ TEST """        
+        # Convert frames to grayscale
+        gray1 = cv2.cvtColor(frame1, cv2.COLOR_BGR2GRAY)
+        gray2 = cv2.cvtColor(frame2, cv2.COLOR_BGR2GRAY)
+
+        # Display the grayscale images
+        cv2.imshow('Camera 1 - Grayscale', gray1)
+        cv2.imshow('Camera 2 - Grayscale', gray2)
+
+        """ TEST """   
+
         broke = False
         if not ret1:
             print("Error: First camera not working")
@@ -502,6 +513,7 @@ if __name__ == '__main__':
         # cv2.resizeWindow('Camera 2', 3840, 2160)
         # cv2.imshow('Camera 2', frame2)
 
+        break
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 

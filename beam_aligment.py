@@ -479,17 +479,34 @@ def center_arm(arm,frame):
     # check_saturation(frame)
         
     intensity,laser_center = rgb_to_intensity_and_peak(frame)
+    print(laser_center)
+    center_z=laser_center[1]
+    center_x=laser_center[0]
+    height, width, channels = frame.shape  
 
-    
+    movex=(width//2-center_x)/10
+    movez=(height//2-center_z)/10
+    print("center found",center_x,center_z,480,640,"and",movex,movez)
     if laser_center is not None:
-        # cv2.circle(frame, laser_center, 10, (0, 255, 0), -1)
-        return laser_center
+        cv2.circle(frame, laser_center, 10, (0, 255, 0), -1)
+        cv2.waitKey(100)
+        height, width, channels = frame.shape  
+        movex=(width//2-center_x)/20
+        movez=(height//2-center_z)/20
+        if abs(movez)<=1 and abs(movex)<=1:
+            return 1
+        code,place=arm.get_position_aa(is_radian=False)
+        target_move=[place[0]+movex/90]+[place[1]]+[place[2]-movez/90]+place[3:]
+        if target_move[0]>400 or target_move[2]>320 or target_move[0]<200 or target_move[2]<190:
+            return -1
+        code = arm.set_position_aa(target_move, speed=50,mvacc=100, wait=True)
+        return 0
     else:
         return -1
 if __name__ == '__main__':
     print(cv2.__version__)
-    # Load calibration data
-    camera_coor=[351.468109, 265.150024, 269.0, 140.77023, -112.177172, -0.118774]
+    # Load calibration dataS
+    camera_coor=[346.8, 263.2, 263.3, 140.77023, -112.177172, -0.118774]
 
     calibration_data = np.load('stereo_calibration2.npz')
     mtx1 = calibration_data['mtx1']
@@ -589,7 +606,7 @@ if __name__ == '__main__':
     cap2 = cv2.VideoCapture(4)
     centered=False
     centers=[]
-    save_folder = 'saved_frames_full_nolight'
+    save_folder = 'test_v2'
     if not os.path.exists(save_folder):
         os.makedirs(save_folder)
 
@@ -604,33 +621,42 @@ if __name__ == '__main__':
 
         # Save the current frame to the folder
         cv2.imwrite(filename, frame)
-
+        cv2.imshow('Camera 1',frame)
+        cv2.waitKey(1000)
         # Increment the frame counter
         frame_count += 1
 
-    for step in range(30):
-        ret, frame = cap2.read()
-        save_frame(frame)
-        if not ret:
-            print("Error: Could not read frame.")
-            break
-        centered=center_arm(arm,frame)
-        if centered==-1:
-            break
+    for step in range(14):
+        leave=False
+
+        while leave is False:
+            ret, frame = cap2.read()
+            if not ret:
+                print("Error: Could not read frame.")
+                break
+            centered=center_arm(arm,frame)
+            if centered==-1:
+                break
+            elif centered==1:
+                save_frame(frame)
+                leave=True
+        if leave:
+            code,place=arm.get_position_aa(is_radian=False)
+            centers.append(place)
         else:
-            centers.append(centered)
-        
-        code = arm.set_position_aa([camera_coor[0]]+[camera_coor[1]-step]+camera_coor[2:], speed=50,mvacc=100, wait=True)
+            break
+        code,place=arm.get_position_aa(is_radian=False)
+        code = arm.set_position_aa([place[0]]+[place[1]-step*6]+place[2:], speed=50,mvacc=100, wait=True)
     print(centers)
     coordinates_array = np.array(centers)
 
     # Separate the x and y coordinates
-    x_coords = coordinates_array[:, 0]
-    y_coords = coordinates_array[:, 1]
+    # x_coords = coordinates_array[:, 0]
+    # y_coords = coordinates_array[:, 1]
 
-    # Perform linear regression to find the slope (m) and intercept (b)
-    slope, intercept = np.polyfit(x_coords, y_coords, 1)
-    print("Slope: ",slope," Intercept: ",intercept)
+    # # Perform linear regression to find the slope (m) and intercept (b)
+    # slope, intercept = np.polyfit(x_coords, y_coords, 1)
+    # print("Slope: ",slope," Intercept: ",intercept)
     cv2.destroyAllWindows()
 
     pipeline.stop()

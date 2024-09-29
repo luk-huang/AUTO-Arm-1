@@ -492,58 +492,128 @@ def center_arm(arm,frame):
     return laser_center
     if cv2.waitKey(1) & 0xFF == ord('q'):
         return
+    
+
+def save_frame_as_numpy(save_folder, frame, frame_count, letter):
+
+        # Create the filename with frame number
+        filename = os.path.join(save_folder, f'frame_hi_res_{frame_count:04d}{letter}.npy')  # Saves as frame_0000.npy, frame_0001.npy, ...
+
+        # Save the current frame as a NumPy array to a file
+        np.save(filename, frame)
+
+
+
 if __name__ == '__main__':
     print(cv2.__version__)
     # Load calibration data
     
-    camera_coor=[351.468109, 265.150024, 269.0, 140.77023, -112.177172, -0.118774]
+    camera_coor=   [345.649323, 236.93576000000002, 260.717987, -179.28938, -4.05064, 87.308684]
+    x, y, z, roll, pitch, yaw = camera_coor[0], camera_coor[1], camera_coor[2], camera_coor[3], camera_coor[4], camera_coor[5]
+
+    y -= 15
+    code = arm.set_position(x=x, y = y, z = z, roll=roll, pitch=pitch, yaw=yaw, is_radian = False)
+    time.sleep(5)
 
 
 
-    
+
+
+
     cap2 = cv2.VideoCapture(4)
-    centered=False
-    centers=[]
-    save_folder = 'saved_frames'
+
+    save_folder = 'saved_frames_high_res_camera_lens'
     if not os.path.exists(save_folder):
         os.makedirs(save_folder)
 
+    
+
+    # ret, frame = cap2.read()
+    # save_frame_as_numpy(save_folder, frame, 0, 'a')
+
+    # npy_file = np.load("saved_frames_high_res_camera/frame_hi_res_0000a.npy")
+    # cv2.imshow("image", npy_file) 
+    # cv2.waitKey(0) 
+    # cv2.destroyAllWindows()
+
+
+
+    # y += 150
+    # code = arm.set_position(x=x, y = y, z = z, roll=roll, pitch=pitch, yaw=yaw, is_radian = False)
+    # time.sleep(5)
+
+
+    # ret, frame = cap2.read()
+    # save_frame_as_numpy(save_folder, frame, 0, 'a')
+
+    # npy_file = np.load("saved_frames_high_res_camera/frame_hi_res_0000a.npy")
+    # cv2.imshow("image", npy_file) 
+    # cv2.waitKey(0) 
+    # cv2.destroyAllWindows()
+
+    
+    
+
+    
+    centered=False
+    centers=[]
+
+
     # Initialize a counter for frame numbering
-    frame_count = 0
-
-    def save_frame(frame):
-        global frame_count
-
-        # Create the filename with frame number
-        filename = os.path.join(save_folder, f'frame_{frame_count:04d}.png')  # Saves as frame_0000.png, frame_0001.png, ...
-
-        # Save the current frame to the folder
-        cv2.imwrite(filename, frame)
-
-        # Increment the frame counter
-        frame_count += 1
-
-    for step in range(30):
+    frame_count = 1
+    
+    
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    for step in range(330):
         ret, frame = cap2.read()
-        save_frame(frame)
+        for redundancy in range(26):
+            letter = alphabet[redundancy]
+            save_frame_as_numpy(save_folder, frame, frame_count, letter)
+
         if not ret:
             print("Error: Could not read frame.")
             break
-        centered=center_arm(arm,frame)
-        if centered==-1:
-            break
-        else:
-            centers.append(centered)
+        # centered=center_arm(arm,frame)
+        # if centered==-1:
+        #     break
+        # else:
+        #     centers.append(centered)
+
+        y += 0.5
+        # cv2.imshow('image', npy_file)
+        # cv2.waitKey(0)
+        # cv2.destroyAllWindows()
+
         
-        code = arm.set_position_aa([camera_coor[0]]+[camera_coor[1]-step]+camera_coor[2:], speed=50,mvacc=100, wait=True)
-    print(centers)
-    coordinates_array = np.array(centers)
+        code = arm.set_position(x=x, y = y, z = z, roll=roll, pitch=pitch, yaw=yaw, is_radian = False)
+        frame_count += 1
+        time.sleep(0.1)
 
-    # Separate the x and y coordinates
-    x_coords = coordinates_array[:, 0]
-    y_coords = coordinates_array[:, 1]
+    # npy_file = np.load(f"{save_folder}/frame_hi_res_0001a.npy")
+    # cv2.imshow("image", npy_file)
+    # cv2.waitKey(0)
+    # cv2.destroyAllWindows()
 
-    # Perform linear regression to find the slope (m) and intercept (b)
-    slope, intercept = np.polyfit(x_coords, y_coords, 1)
-    print(slope,intercept)
-    cv2.destroyAllWindows()
+
+    # npy_file = np.load(f"{save_folder}/frame_hi_res_0299a.npy")
+    # cv2.imshow("image", npy_file) 
+    # cv2.waitKey(0) 
+    # cv2.destroyAllWindows()
+       
+
+    # print(centers)
+    # coordinates_array = np.array(centers)
+
+
+    
+
+    
+
+    # # Separate the x and y coordinates
+    # x_coords = coordinates_array[:, 0]
+    # y_coords = coordinates_array[:, 1]
+
+    # # Perform linear regression to find the slope (m) and intercept (b)
+    # slope, intercept = np.polyfit(x_coords, y_coords, 1)
+    # print(slope,intercept)
+    # cv2.destroyAllWindows()
